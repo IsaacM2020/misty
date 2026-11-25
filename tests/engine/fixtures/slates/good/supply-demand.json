@@ -1,0 +1,33 @@
+{
+ "_kind": "quick",
+ "title": "Supply and demand",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "curve_pair",
+     "kind": "supply_demand",
+     "labels": [
+      "$S$",
+      "$D$"
+     ]
+    },
+    {
+     "t": "point",
+     "x": 5,
+     "y": 5,
+     "label": "$E$",
+     "c": "red"
+    }
+   ],
+   "say": "Where they cross."
+  },
+  {
+   "k": "math",
+   "tex": "P^*=5",
+   "say": "Price settles at five.",
+   "mark": "under"
+  }
+ ]
+}

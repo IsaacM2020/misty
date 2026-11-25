@@ -1,0 +1,46 @@
+{
+ "_kind": "stay",
+ "title": "Lesson",
+ "blocks": [
+  {
+   "k": "text",
+   "text": "Speed is distance over time.",
+   "say": "Speed is distance over time."
+  },
+  {
+   "k": "math",
+   "tex": "v=\\frac{d}{t}",
+   "say": "One formula."
+  },
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      5
+     ],
+     "y": [
+      0,
+      10
+     ]
+    },
+    {
+     "t": "plot",
+     "f": "2*x",
+     "from": 0,
+     "to": 5,
+     "c": "red",
+     "label": "$v=2t$"
+    }
+   ],
+   "say": "Slope is speed."
+  },
+  {
+   "k": "turn",
+   "prompt": "Your turn: what is the speed?",
+   "say": "Your turn: what is the speed?"
+  }
+ ]
+}

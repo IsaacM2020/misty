@@ -1,0 +1,14 @@
+{
+ "_kind": "quick",
+ "title": "17 percent",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "17\\% \\times 340 = \\ans",
+   "say": "Seventeen percent of 340.",
+   "ans": {
+    "expr": "0.17*340"
+   }
+  }
+ ]
+}

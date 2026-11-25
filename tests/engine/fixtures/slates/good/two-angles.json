@@ -1,0 +1,54 @@
+{
+ "_kind": "quick",
+ "title": "Triangle angles",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "line",
+     "x1": 0,
+     "y1": 0,
+     "x2": 4,
+     "y2": 0
+    },
+    {
+     "t": "line",
+     "x1": 0,
+     "y1": 0,
+     "x2": 3,
+     "y2": 2.5
+    },
+    {
+     "t": "line",
+     "x1": 4,
+     "y1": 0,
+     "x2": 3,
+     "y2": 2.5
+    },
+    {
+     "t": "angle",
+     "x": 0,
+     "y": 0,
+     "from": 0,
+     "to": 40,
+     "label": "$A$",
+     "c": "red"
+    },
+    {
+     "t": "point",
+     "x": 3,
+     "y": 2.5,
+     "label": "top"
+    }
+   ],
+   "say": "Angle A at the left."
+  },
+  {
+   "k": "math",
+   "tex": "A+B+C=180^\\circ",
+   "say": "Angles sum to one eighty.",
+   "mark": "under"
+  }
+ ]
+}

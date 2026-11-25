@@ -1,0 +1,29 @@
+{
+ "_kind": "quick",
+ "title": "Ammonia",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "molecule",
+     "formula": "NH3"
+    }
+   ],
+   "say": "Here is the Lewis structure of ammonia."
+  },
+  {
+   "k": "text",
+   "text": "\\ve valence electrons, \\bonds, \\lps lone pairs.",
+   "say": "\\ve valence electrons, \\bonds, \\lps lone pairs."
+  },
+  {
+   "k": "math",
+   "tex": "\\mathrm{NH_{3}}:\\ \\ans",
+   "ans": {
+    "chem": "geom"
+   },
+   "say": "So the shape is \\geom."
+  }
+ ]
+}

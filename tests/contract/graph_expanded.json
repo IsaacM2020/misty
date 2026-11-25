@@ -1,0 +1,190 @@
+{
+  "edges": [
+    {
+      "kind": "belongs",
+      "source": "me",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "people/aarav-shah",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "projects/wiki-project",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "topics/exam-topic-0",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "topics/exam-topic-1",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "topics/exam-topic-2",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "topics/exam-topic-3",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "topics/exam-topic-4",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "topics/exam-topic-5",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "topics/exam-topic-6",
+      "target": "areas/school"
+    },
+    {
+      "kind": "belongs",
+      "source": "group/whatsapp:c9",
+      "target": "me"
+    },
+    {
+      "kind": "involves",
+      "source": "people/aarav-shah",
+      "target": "projects/wiki-project",
+      "weight": 3
+    }
+  ],
+  "nodes": [
+    {
+      "area": null,
+      "glow": 0.0,
+      "id": "me",
+      "importance": 5,
+      "label": "Me",
+      "last_date": null,
+      "sources": 0,
+      "type": "self"
+    },
+    {
+      "area": null,
+      "expanded": true,
+      "glow": 0.0,
+      "id": "areas/school",
+      "importance": 5,
+      "label": "School",
+      "last_date": null,
+      "more": 0,
+      "sources": 27,
+      "type": "area"
+    },
+    {
+      "area": "school",
+      "glow": 1.0,
+      "id": "people/aarav-shah",
+      "importance": 4,
+      "label": "Aarav Shah",
+      "last_date": "2026-10-13",
+      "sources": 3,
+      "type": "person"
+    },
+    {
+      "area": "school",
+      "glow": 1.0,
+      "id": "projects/wiki-project",
+      "importance": 4,
+      "label": "Wiki project",
+      "last_date": "2026-10-13",
+      "sources": 3,
+      "type": "project"
+    },
+    {
+      "area": "school",
+      "glow": 0.6,
+      "id": "topics/exam-topic-0",
+      "importance": 4,
+      "label": "Exam topic 0",
+      "last_date": "2026-10-12",
+      "sources": 3,
+      "type": "topic"
+    },
+    {
+      "area": "school",
+      "glow": 0.6,
+      "id": "topics/exam-topic-1",
+      "importance": 4,
+      "label": "Exam topic 1",
+      "last_date": "2026-10-12",
+      "sources": 3,
+      "type": "topic"
+    },
+    {
+      "area": "school",
+      "glow": 0.6,
+      "id": "topics/exam-topic-2",
+      "importance": 4,
+      "label": "Exam topic 2",
+      "last_date": "2026-10-12",
+      "sources": 3,
+      "type": "topic"
+    },
+    {
+      "area": "school",
+      "glow": 0.6,
+      "id": "topics/exam-topic-3",
+      "importance": 4,
+      "label": "Exam topic 3",
+      "last_date": "2026-10-12",
+      "sources": 3,
+      "type": "topic"
+    },
+    {
+      "area": "school",
+      "glow": 0.6,
+      "id": "topics/exam-topic-4",
+      "importance": 4,
+      "label": "Exam topic 4",
+      "last_date": "2026-10-12",
+      "sources": 3,
+      "type": "topic"
+    },
+    {
+      "area": "school",
+      "glow": 0.6,
+      "id": "topics/exam-topic-5",
+      "importance": 4,
+      "label": "Exam topic 5",
+      "last_date": "2026-10-12",
+      "sources": 3,
+      "type": "topic"
+    },
+    {
+      "area": "school",
+      "glow": 0.6,
+      "id": "topics/exam-topic-6",
+      "importance": 4,
+      "label": "Exam topic 6",
+      "last_date": "2026-10-12",
+      "sources": 3,
+      "type": "topic"
+    },
+    {
+      "area": null,
+      "glow": 0.0,
+      "id": "group/whatsapp:c9",
+      "importance": 2,
+      "label": "Study group",
+      "last_date": null,
+      "members": 4,
+      "sources": 0,
+      "type": "group"
+    }
+  ]
+}

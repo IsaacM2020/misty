@@ -1,0 +1,41 @@
+{
+ "_kind": "quick",
+ "title": "Two forces",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "point",
+     "x": 0,
+     "y": 0,
+     "label": "box"
+    },
+    {
+     "t": "arrow",
+     "x1": 0,
+     "y1": 0,
+     "x2": 3,
+     "y2": 0,
+     "label": "$F$",
+     "c": "red"
+    },
+    {
+     "t": "arrow",
+     "x1": 0,
+     "y1": 0,
+     "x2": -2,
+     "y2": 0,
+     "label": "$f$"
+    }
+   ],
+   "say": "Push right, friction left."
+  },
+  {
+   "k": "math",
+   "tex": "F_{\\text{net}}=3-2=1",
+   "say": "Net force is one.",
+   "mark": "under"
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+Untitled document
+Page 1 of 1
+A 1500 kg car goes from 0 to 20 m/s in 8 s. Find a and the force.
+a = (v - u) / t = 20 / 8 = 2.5 m/s²
+F = ma = 1500 × 2.5
+F = 3750 N
+Page 1 of 1
+Word count: 38

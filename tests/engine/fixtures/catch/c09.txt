@@ -1,0 +1,5 @@
+Untitled document
+Find the pH of 0.010 mol/dm³ HCl.
+[H+] = 0.010
+pH = -log(0.010)
+pH = 2

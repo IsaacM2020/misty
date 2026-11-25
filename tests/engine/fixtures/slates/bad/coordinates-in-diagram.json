@@ -1,0 +1,26 @@
+{
+ "_expect": {
+  "reject": true
+ },
+ "title": "coordinates-in-diagram",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "line",
+     "d": "M 10 10 L 200 200"
+    }
+   ],
+   "say": "Line."
+  },
+  {
+   "k": "math",
+   "tex": "1 + 1 = \\ans",
+   "say": "Two.",
+   "ans": {
+    "expr": "1+1"
+   }
+  }
+ ]
+}

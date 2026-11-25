@@ -1,0 +1,4 @@
+You've hit your session limit · resets 3:45pm
+You've hit your weekly limit · resets Mon 12:00am
+You've hit your Opus limit · resets 3:45pm
+You've hit your Sonnet limit · resets 3:45pm

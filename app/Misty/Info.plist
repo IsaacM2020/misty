@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>EDITH</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string>EDITH</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>EDITH</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>EDITH reads the page or file you have open when you say “this”.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>In an online class EDITH listens to the sound your Mac plays (the teacher) and turns it into text. No audio is kept.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>EDITH</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>EDITH listens when you tap Control+Option, and for her name (“Edith”) while the wake word is on. The name is spotted on this Mac; nothing is recorded or sent.</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+{
+ "_kind": "quick",
+ "title": "Derivative",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "\\frac{d}{dx}\\cos(2x)=-2\\sin(2x)",
+   "say": "Chain rule.",
+   "check": {
+    "lhs": "diff(cos(2*x),x)",
+    "rhs": "-2*sin(2*x)"
+   }
+  },
+  {
+   "k": "note",
+   "text": "The 2 comes out from the inside.",
+   "say": "The 2 comes out from the inside."
+  }
+ ]
+}

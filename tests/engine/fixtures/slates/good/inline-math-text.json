@@ -1,0 +1,11 @@
+{
+ "_kind": "quick",
+ "title": "Area",
+ "blocks": [
+  {
+   "k": "text",
+   "text": "Area of a circle is $\\pi r^2$.",
+   "say": "Area of a circle is $\\pi r^2$."
+  }
+ ]
+}

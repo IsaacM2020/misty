@@ -1,0 +1,909 @@
+{
+ "number": [
+  {
+   "id": "n01",
+   "subject": "physics",
+   "q": "A car starts from rest and accelerates uniformly at 2.5 m/s^2 for 8.0 s. What is its final speed?",
+   "passage": "For uniform acceleration the final speed is v = u + at, where u is the starting speed, a the acceleration and t the time.",
+   "key": {
+    "expr": "0+2.5*8.0",
+    "unit": "m/s",
+    "sig_figs": 2
+   },
+   "planted": "x10"
+  },
+  {
+   "id": "n02",
+   "subject": "physics",
+   "q": "The same car starts from rest and accelerates uniformly at 2.5 m/s^2 for 8.0 s. How far does it travel in that time?",
+   "passage": "For uniform acceleration from rest the distance travelled is s = (1/2) a t^2.",
+   "key": {
+    "expr": "0.5*2.5*8.0^2",
+    "unit": "m",
+    "sig_figs": 2
+   },
+   "planted": "sign"
+  },
+  {
+   "id": "n03",
+   "subject": "physics",
+   "q": "A lorry of mass 1200 kg accelerates at 3.0 m/s^2. What resultant force acts on it?",
+   "passage": "Newton's second law says that the resultant force F equals mass times acceleration, F = ma.",
+   "key": {
+    "expr": "1200*3.0",
+    "unit": "N",
+    "sig_figs": 2
+   },
+   "planted": "unit"
+  },
+  {
+   "id": "n04",
+   "subject": "physics",
+   "q": "A ball of mass 0.50 kg moves at 12 m/s. What is its kinetic energy?",
+   "passage": "The kinetic energy of a moving object is E = (1/2) m v^2.",
+   "key": {
+    "expr": "0.5*0.50*12^2",
+    "unit": "J",
+    "sig_figs": 2
+   },
+   "planted": "x10"
+  },
+  {
+   "id": "n05",
+   "subject": "physics",
+   "q": "A 12 V battery is connected across a 48 ohm resistor. What current flows?",
+   "passage": "Ohm's law links potential difference V, current I and resistance R: V = I R.",
+   "key": {
+    "expr": "12/48",
+    "unit": "A",
+    "sig_figs": 2
+   },
+   "planted": "sign"
+  },
+  {
+   "id": "n06",
+   "subject": "physics",
+   "q": "A kettle runs from the 230 V mains and draws a current of 5.0 A. What is its power?",
+   "passage": "Electrical power is P = V I, potential difference times current.",
+   "key": {
+    "expr": "230*5.0",
+    "unit": "W",
+    "sig_figs": 2
+   },
+   "planted": "unit"
+  },
+  {
+   "id": "n07",
+   "subject": "physics",
+   "q": "A block has mass 540 g and volume 200 cm^3. What is its density?",
+   "passage": "Density is mass divided by volume, rho = m / V.",
+   "key": {
+    "expr": "540/200",
+    "unit": "g/cm3",
+    "sig_figs": 2
+   },
+   "planted": "x10"
+  },
+  {
+   "id": "n08",
+   "subject": "physics",
+   "q": "What is the weight of a 65 kg person where the gravitational field strength is 9.8 N/kg?",
+   "passage": "Weight is W = m g, mass times gravitational field strength.",
+   "key": {
+    "expr": "65*9.8",
+    "unit": "N",
+    "sig_figs": 2
+   },
+   "planted": "unit"
+  },
+  {
+   "id": "n09",
+   "subject": "maths",
+   "q": "Solve 2x + 7 = 19 for x.",
+   "passage": "To solve a linear equation, do the same operation to both sides until x is alone.",
+   "key": {
+    "expr": "(19-7)/2",
+    "unit": ""
+   },
+   "planted": "sign"
+  },
+  {
+   "id": "n10",
+   "subject": "maths",
+   "q": "Find the area of a circle of radius 7.0 cm.",
+   "passage": "The area of a circle of radius r is A = pi r^2.",
+   "key": {
+    "expr": "pi*7.0^2",
+    "unit": "cm^2",
+    "sig_figs": 4
+   },
+   "planted": null
+  },
+  {
+   "id": "n11",
+   "subject": "maths",
+   "q": "A right-angled triangle has shorter sides of 9 cm and 12 cm. How long is the hypotenuse?",
+   "passage": "Pythagoras' theorem says that in a right-angled triangle c^2 = a^2 + b^2, where c is the hypotenuse.",
+   "key": {
+    "expr": "sqrt(9^2+12^2)",
+    "unit": "cm"
+   },
+   "planted": "x10"
+  },
+  {
+   "id": "n12",
+   "subject": "maths",
+   "q": "$2000 is invested at 5% compound interest per year. How much is it worth after 3 years?",
+   "passage": "With compound interest the amount after n years is P (1 + r)^n, where r is the yearly rate written as a decimal.",
+   "key": {
+    "expr": "2000*1.05^3",
+    "unit": "dollars",
+    "sig_figs": 6
+   },
+   "planted": null
+  },
+  {
+   "id": "n13",
+   "subject": "maths",
+   "q": "An arithmetic sequence begins 5, 9, 13, 17. What is its 10th term?",
+   "passage": "The n-th term of an arithmetic sequence is a + (n - 1) d, where a is the first term and d the common difference.",
+   "key": {
+    "expr": "5+(10-1)*4",
+    "unit": ""
+   },
+   "planted": null
+  },
+  {
+   "id": "n14",
+   "subject": "chemistry",
+   "q": "How many moles are in 36 g of water? The relative formula mass of water is 18.",
+   "passage": "The amount in moles is mass in grams divided by relative formula mass: n = m / Mr.",
+   "key": {
+    "expr": "36/18",
+    "unit": "mol",
+    "sig_figs": 2
+   },
+   "planted": null
+  },
+  {
+   "id": "n15",
+   "subject": "chemistry",
+   "q": "A solution contains 0.50 mol of solute in 250 cm^3. What is its concentration in mol/dm^3?",
+   "passage": "Concentration in mol/dm^3 is moles divided by volume in dm^3. 1000 cm^3 is 1 dm^3.",
+   "key": {
+    "expr": "0.50/(250/1000)",
+    "unit": "mol/dm3",
+    "sig_figs": 2
+   },
+   "planted": "x10"
+  },
+  {
+   "id": "n16",
+   "subject": "chemistry",
+   "q": "What is the relative formula mass of calcium carbonate, CaCO3? Ar: Ca = 40, C = 12, O = 16.",
+   "passage": "The relative formula mass is the sum of the relative atomic masses of all the atoms in the formula.",
+   "key": {
+    "expr": "40+12+3*16",
+    "unit": "",
+    "sig_figs": 3
+   },
+   "planted": "sign"
+  },
+  {
+   "id": "n17",
+   "subject": "chemistry",
+   "q": "What volume does 0.25 mol of any gas occupy at room temperature and pressure?",
+   "passage": "One mole of any gas occupies 24 dm^3 at room temperature and pressure.",
+   "key": {
+    "expr": "0.25*24",
+    "unit": "dm3",
+    "sig_figs": 2
+   },
+   "planted": null
+  },
+  {
+   "id": "n18",
+   "subject": "chemistry",
+   "q": "What is the pH of a solution with a hydrogen ion concentration of 0.001 mol/dm^3?",
+   "passage": "pH = -log10 of the hydrogen ion concentration in mol/dm^3.",
+   "key": {
+    "expr": "-log(0.001)",
+    "unit": ""
+   },
+   "planted": "sign"
+  },
+  {
+   "id": "n19",
+   "subject": "chemistry",
+   "q": "A reaction should make 12.0 g of product but only 8.4 g is made. What is the percentage yield?",
+   "passage": "Percentage yield = actual yield divided by theoretical yield, times 100.",
+   "key": {
+    "expr": "8.4/12.0*100",
+    "unit": "%",
+    "sig_figs": 2
+   },
+   "planted": null
+  },
+  {
+   "id": "n20",
+   "subject": "chemistry",
+   "q": "How much energy is needed to warm 200 g of water by 15 degrees C? The specific heat capacity of water is 4.2 J/g/C.",
+   "passage": "The energy to heat a substance is Q = m c delta T, with mass in grams, c in J/g/C and delta T in degrees C.",
+   "key": {
+    "expr": "200*4.2*15",
+    "unit": "J",
+    "sig_figs": 3
+   },
+   "planted": "unit"
+  }
+ ],
+ "choice": [
+  {
+   "id": "c01",
+   "subject": "physics",
+   "q": "Which particle in an atom has a negative charge?",
+   "passage": "Atoms contain protons, neutrons and electrons. Protons have a positive charge, neutrons have no charge and electrons have a negative charge.",
+   "key": {
+    "options": [
+     "proton",
+     "neutron",
+     "electron",
+     "nucleus"
+    ],
+    "answer": "electron"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c02",
+   "subject": "chemistry",
+   "q": "Which gas turns limewater cloudy?",
+   "passage": "Limewater is used to test for carbon dioxide. When carbon dioxide is bubbled through it, the limewater turns cloudy.",
+   "key": {
+    "options": [
+     "oxygen",
+     "hydrogen",
+     "carbon dioxide",
+     "nitrogen"
+    ],
+    "answer": "carbon dioxide"
+   },
+   "planted": null
+  },
+  {
+   "id": "c03",
+   "subject": "chemistry",
+   "q": "What is the approximate pH of a strong acid?",
+   "passage": "On the pH scale, strong acids have a pH of 0 to 2, neutral solutions have a pH of 7 and strong alkalis have a pH of 12 to 14.",
+   "key": {
+    "options": [
+     "1",
+     "7",
+     "10",
+     "14"
+    ],
+    "answer": "1"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c04",
+   "subject": "physics",
+   "q": "What is the SI unit of power?",
+   "passage": "Power is the rate of transferring energy. One watt is one joule transferred per second.",
+   "key": {
+    "options": [
+     "joule",
+     "watt",
+     "newton",
+     "volt"
+    ],
+    "answer": "watt"
+   },
+   "planted": null
+  },
+  {
+   "id": "c05",
+   "subject": "physics",
+   "q": "Which of these is a vector quantity?",
+   "passage": "A vector has both size and direction. Velocity is a vector. Speed, mass and time have size only and are scalars.",
+   "key": {
+    "options": [
+     "speed",
+     "mass",
+     "velocity",
+     "time"
+    ],
+    "answer": "velocity"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c06",
+   "subject": "chemistry",
+   "q": "Which of these elements is unreactive because its outer shell is full?",
+   "passage": "The noble gases in group 0 have full outer shells, so they are unreactive. Sodium and chlorine have incomplete outer shells.",
+   "key": {
+    "options": [
+     "sodium",
+     "chlorine",
+     "argon",
+     "oxygen"
+    ],
+    "answer": "argon"
+   },
+   "planted": null
+  },
+  {
+   "id": "c07",
+   "subject": "maths",
+   "q": "What is the gradient of the line y = 3x + 2?",
+   "passage": "A straight line in the form y = mx + c has gradient m and y-intercept c.",
+   "key": {
+    "options": [
+     "2",
+     "3",
+     "5",
+     "3x"
+    ],
+    "answer": "3"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c08",
+   "subject": "maths",
+   "q": "What do the three angles of any triangle add up to?",
+   "passage": "The interior angles of a triangle always sum to 180 degrees. The interior angles of a quadrilateral sum to 360 degrees.",
+   "key": {
+    "options": [
+     "90 degrees",
+     "180 degrees",
+     "270 degrees",
+     "360 degrees"
+    ],
+    "answer": "180 degrees"
+   },
+   "planted": null
+  },
+  {
+   "id": "c09",
+   "subject": "chemistry",
+   "q": "What type of bonding holds sodium chloride together?",
+   "passage": "Sodium chloride is made when sodium gives an electron to chlorine. The oppositely charged ions attract each other in ionic bonding.",
+   "key": {
+    "options": [
+     "covalent",
+     "metallic",
+     "ionic",
+     "hydrogen"
+    ],
+    "answer": "ionic"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c10",
+   "subject": "physics",
+   "q": "Which object has the greatest kinetic energy?",
+   "passage": "Kinetic energy is E = (1/2) m v^2. Objects: A has mass 2 kg and speed 3 m/s, B has mass 1 kg and speed 5 m/s, C has mass 4 kg and speed 2 m/s, D has mass 3 kg and speed 3 m/s.",
+   "key": {
+    "options": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "answer": "D"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c11",
+   "subject": "chemistry",
+   "q": "Which of these compounds is an alkane?",
+   "passage": "Alkanes are saturated hydrocarbons with only single bonds, such as ethane, C2H6. Ethene, C2H4, is an alkene. Ethanol is an alcohol.",
+   "key": {
+    "options": [
+     "ethene",
+     "ethane",
+     "ethanol",
+     "ethanoic acid"
+    ],
+    "answer": "ethane"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c12",
+   "subject": "physics",
+   "q": "Which type of wave is a longitudinal wave?",
+   "passage": "In a longitudinal wave the vibrations are parallel to the direction of travel. Sound is longitudinal. Light and water waves are transverse.",
+   "key": {
+    "options": [
+     "light",
+     "sound",
+     "radio",
+     "ripples on water"
+    ],
+    "answer": "sound"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c13",
+   "subject": "maths",
+   "q": "Which of these numbers is prime?",
+   "passage": "A prime number has exactly two factors, one and itself. 51 = 3 x 17, 57 = 3 x 19 and 63 = 7 x 9.",
+   "key": {
+    "options": [
+     "51",
+     "57",
+     "59",
+     "63"
+    ],
+    "answer": "59"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c14",
+   "subject": "chemistry",
+   "q": "Which ion is present in every acidic solution?",
+   "passage": "Acids are substances that release hydrogen ions, H+, when dissolved in water. Alkalis release hydroxide ions, OH-.",
+   "key": {
+    "options": [
+     "OH-",
+     "H+",
+     "Na+",
+     "Cl-"
+    ],
+    "answer": "H+"
+   },
+   "planted": null
+  },
+  {
+   "id": "c15",
+   "subject": "chemistry",
+   "q": "What is the formula of aluminium oxide?",
+   "passage": "Aluminium forms Al3+ ions and oxygen forms O2- ions. Two Al3+ ions give +6, which balances three O2- ions giving -6.",
+   "key": {
+    "options": [
+     "AlO",
+     "Al2O3",
+     "Al3O2",
+     "AlO3"
+    ],
+    "answer": "Al2O3"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c16",
+   "subject": "chemistry",
+   "q": "Which of zinc, iron, magnesium and copper is the most reactive?",
+   "passage": "The reactivity series from most to least reactive is potassium, sodium, calcium, magnesium, zinc, iron, copper.",
+   "key": {
+    "options": [
+     "zinc",
+     "iron",
+     "magnesium",
+     "copper"
+    ],
+    "answer": "magnesium"
+   },
+   "planted": null
+  },
+  {
+   "id": "c17",
+   "subject": "physics",
+   "q": "What is the total resistance of two 6 ohm resistors connected in parallel?",
+   "passage": "For two equal resistors R in parallel the total resistance is R / 2. In series the total is 2R.",
+   "key": {
+    "options": [
+     "12 ohm",
+     "6 ohm",
+     "3 ohm",
+     "0.5 ohm"
+    ],
+    "answer": "3 ohm"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c18",
+   "subject": "maths",
+   "q": "What is the derivative of x^3 with respect to x?",
+   "passage": "The derivative of x^n is n x^(n-1).",
+   "key": {
+    "options": [
+     "x^2",
+     "3x",
+     "3x^2",
+     "x^4 / 4"
+    ],
+    "answer": "3x^2"
+   },
+   "planted": null
+  },
+  {
+   "id": "c19",
+   "subject": "chemistry",
+   "q": "What happens at the cathode during electrolysis?",
+   "passage": "In electrolysis the cathode is the negative electrode. Positive ions are attracted to it and gain electrons there. Gain of electrons is reduction.",
+   "key": {
+    "options": [
+     "oxidation",
+     "reduction",
+     "neutralisation",
+     "evaporation"
+    ],
+    "answer": "reduction"
+   },
+   "planted": "next"
+  },
+  {
+   "id": "c20",
+   "subject": "chemistry",
+   "q": "What colour is universal indicator in a strong alkali?",
+   "passage": "Universal indicator is red in strong acid, green in a neutral solution and purple in strong alkali.",
+   "key": {
+    "options": [
+     "red",
+     "green",
+     "yellow",
+     "purple"
+    ],
+    "answer": "purple"
+   },
+   "planted": null
+  }
+ ],
+ "term": [
+  {
+   "id": "t01",
+   "subject": "biology",
+   "q": "What is the name of the process plants use to make glucose?",
+   "passage": "Plants make glucose by photosynthesis, using light energy, carbon dioxide and water.",
+   "key": {
+    "accept": [
+     "photosynthesis"
+    ]
+   },
+   "planted": "respiration"
+  },
+  {
+   "id": "t02",
+   "subject": "physics",
+   "q": "What is the SI unit of force called?",
+   "passage": "The newton (N) is the SI unit of force.",
+   "key": {
+    "accept": [
+     "newton"
+    ]
+   },
+   "planted": null
+  },
+  {
+   "id": "t03",
+   "subject": "chemistry",
+   "q": "What apparatus measures the volume of a gas given off in a reaction?",
+   "passage": "A gas syringe is used to collect and measure the volume of a gas given off.",
+   "key": {
+    "accept": [
+     "gas syringe"
+    ]
+   },
+   "planted": "burette"
+  },
+  {
+   "id": "t04",
+   "subject": "chemistry",
+   "q": "What is a substance called that speeds up a reaction without being used up?",
+   "passage": "A catalyst speeds up a reaction but is not used up in it.",
+   "key": {
+    "accept": [
+     "catalyst"
+    ]
+   },
+   "planted": null
+  },
+  {
+   "id": "t05",
+   "subject": "maths",
+   "q": "What is the longest side of a right-angled triangle called?",
+   "passage": "The longest side of a right-angled triangle, opposite the right angle, is the hypotenuse.",
+   "key": {
+    "accept": [
+     "hypotenuse"
+    ]
+   },
+   "planted": "tangent"
+  },
+  {
+   "id": "t06",
+   "subject": "physics",
+   "q": "What is the rate of change of velocity called?",
+   "passage": "Acceleration is the rate of change of velocity.",
+   "key": {
+    "accept": [
+     "acceleration"
+    ]
+   },
+   "planted": null
+  },
+  {
+   "id": "t07",
+   "subject": "chemistry",
+   "q": "What name is given to a reaction that releases heat to the surroundings?",
+   "passage": "An exothermic reaction transfers energy to the surroundings, so the temperature rises.",
+   "key": {
+    "accept": [
+     "exothermic"
+    ]
+   },
+   "planted": "endothermic"
+  },
+  {
+   "id": "t08",
+   "subject": "maths",
+   "q": "What do we call the point where a graph crosses the y-axis?",
+   "passage": "The y-intercept is the point where a graph crosses the y-axis.",
+   "key": {
+    "accept": [
+     "y-intercept",
+     "intercept"
+    ]
+   },
+   "planted": null
+  },
+  {
+   "id": "t09",
+   "subject": "chemistry",
+   "q": "What is the electrode called that is connected to the positive terminal in electrolysis?",
+   "passage": "In electrolysis the anode is the electrode connected to the positive terminal of the supply.",
+   "key": {
+    "accept": [
+     "anode"
+    ]
+   },
+   "planted": null
+  },
+  {
+   "id": "t10",
+   "subject": "chemistry",
+   "q": "What are atoms of the same element with different numbers of neutrons called?",
+   "passage": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons.",
+   "key": {
+    "accept": [
+     "isotopes"
+    ]
+   },
+   "planted": null
+  }
+ ],
+ "points": [
+  {
+   "id": "p01",
+   "subject": "physics",
+   "q": "Why does a ball thrown upwards slow down as it rises?",
+   "passage": "Gravity pulls the ball downwards as it rises. This force acts opposite to its velocity, so the ball decelerates.",
+   "key": {
+    "points": [
+     {
+      "text": "gravity pulls it down, against its motion",
+      "quote": "This force acts opposite to its velocity"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "gravity speeds it up as it rises",
+    "quote": "Gravity pulls the ball downwards as it rises"
+   },
+   "planted": "contradict"
+  },
+  {
+   "id": "p02",
+   "subject": "chemistry",
+   "q": "Why does powdered marble react faster than lumps?",
+   "passage": "Powdering a solid increases its surface area. More particles are exposed, so there are more frequent collisions.",
+   "key": {
+    "points": [
+     {
+      "text": "powdering increases the surface area",
+      "quote": "Powdering a solid increases its surface area"
+     },
+     {
+      "text": "more frequent collisions",
+      "quote": "there are more frequent collisions"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "powdering reduces the surface area",
+    "quote": "Powdering a solid increases its surface area"
+   },
+   "planted": "fake"
+  },
+  {
+   "id": "p03",
+   "subject": "chemistry",
+   "q": "State two properties of ionic compounds.",
+   "passage": "Ionic compounds have high melting points. They conduct electricity when molten or dissolved because the ions are free to move.",
+   "key": {
+    "points": [
+     {
+      "text": "high melting points",
+      "quote": "Ionic compounds have high melting points"
+     },
+     {
+      "text": "conduct when molten or dissolved",
+      "quote": "They conduct electricity when molten or dissolved"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "they conduct electricity when solid",
+    "quote": "They conduct electricity when molten or dissolved because the ions are free to move"
+   },
+   "planted": "contradict"
+  },
+  {
+   "id": "p04",
+   "subject": "physics",
+   "q": "Why does a metal wire get hot when a current flows?",
+   "passage": "Electrons collide with the metal ions as they move through the wire. These collisions transfer energy to the ions, which vibrate more, so the wire heats up.",
+   "key": {
+    "points": [
+     {
+      "text": "electrons collide with the ions",
+      "quote": "Electrons collide with the metal ions as they move"
+     },
+     {
+      "text": "the ions vibrate more",
+      "quote": "which vibrate more, so the wire heats up"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "the ions stop moving so the energy is stored",
+    "quote": "These collisions transfer energy to the ions"
+   },
+   "planted": "contradict"
+  },
+  {
+   "id": "p05",
+   "subject": "maths",
+   "q": "What does a negative discriminant tell you about a quadratic equation?",
+   "passage": "If the discriminant b^2 - 4ac is negative, the quadratic has no real roots. If it equals zero, there is one repeated root.",
+   "key": {
+    "points": [
+     {
+      "text": "a negative discriminant means no real roots",
+      "quote": "the quadratic has no real roots"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "a negative discriminant means two real roots",
+    "quote": "If the discriminant b^2 - 4ac is negative"
+   },
+   "planted": "fake"
+  },
+  {
+   "id": "p06",
+   "subject": "chemistry",
+   "q": "Why does the temperature stay constant while ice is melting?",
+   "passage": "During melting the temperature stays constant. The energy supplied is used to break the bonds between particles rather than to raise their speed.",
+   "key": {
+    "points": [
+     {
+      "text": "temperature is constant during melting",
+      "quote": "During melting the temperature stays constant"
+     },
+     {
+      "text": "energy is used to break bonds between particles",
+      "quote": "used to break the bonds between particles"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "the energy raises the particle speed so the temperature rises",
+    "quote": "The energy supplied is used to break the bonds between particles"
+   },
+   "planted": "contradict"
+  },
+  {
+   "id": "p07",
+   "subject": "physics",
+   "q": "What happens to the pressure of a gas when its volume is reduced at constant temperature?",
+   "passage": "At constant temperature, reducing the volume of a gas makes the particles hit the walls more often. So the pressure increases.",
+   "key": {
+    "points": [
+     {
+      "text": "particles hit the walls more often",
+      "quote": "the particles hit the walls more often"
+     },
+     {
+      "text": "the pressure increases",
+      "quote": "So the pressure increases"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "the pressure decreases",
+    "quote": "So the pressure increases"
+   },
+   "planted": "fake"
+  },
+  {
+   "id": "p08",
+   "subject": "maths",
+   "q": "How do you find the median of a list of numbers?",
+   "passage": "Order the numbers from smallest to largest. The median is the middle value; with an even count, it is the mean of the two middle values.",
+   "key": {
+    "points": [
+     {
+      "text": "put the numbers in order",
+      "quote": "Order the numbers from smallest to largest"
+     },
+     {
+      "text": "the median is the middle value",
+      "quote": "The median is the middle value"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "the median is the mean of all the values",
+    "quote": "The median is the middle value"
+   },
+   "planted": "contradict"
+  },
+  {
+   "id": "p09",
+   "subject": "chemistry",
+   "q": "Why does reactivity increase down group 1?",
+   "passage": "Going down group 1 the outer electron is further from the nucleus. It is held less strongly, so it is lost more easily.",
+   "key": {
+    "points": [
+     {
+      "text": "the outer electron is further from the nucleus",
+      "quote": "the outer electron is further from the nucleus"
+     },
+     {
+      "text": "it is lost more easily",
+      "quote": "so it is lost more easily"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "the outer electron is held more strongly further down",
+    "quote": "It is held less strongly, so it is lost more easily"
+   },
+   "planted": "contradict"
+  },
+  {
+   "id": "p10",
+   "subject": "physics",
+   "q": "Why does a parachute slow a falling person?",
+   "passage": "A parachute has a large surface area, which gives a large air resistance. This upward force balances the weight at a lower terminal velocity.",
+   "key": {
+    "points": [
+     {
+      "text": "a large surface area gives a large air resistance",
+      "quote": "large surface area, which gives a large air resistance"
+     },
+     {
+      "text": "it balances the weight at a lower terminal velocity",
+      "quote": "balances the weight at a lower terminal velocity"
+     }
+    ]
+   },
+   "bad_point": {
+    "text": "the parachute increases the person's weight",
+    "quote": "This upward force balances the weight at a lower terminal velocity"
+   },
+   "planted": "fake"
+  }
+ ]
+}

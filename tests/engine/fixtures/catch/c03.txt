@@ -1,0 +1,6 @@
+Untitled document
+Saved to Drive
+Data: Ar of Mg = 24
+How many moles are in 12 g of Mg?
+n = m / Mr
+n = 12 / 24 = 0.2 mol

@@ -1,0 +1,14 @@
+{
+ "_kind": "quick",
+ "title": "5 x 5",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "5 \\times 5 = \\ans",
+   "say": "Five times five is twenty-five.",
+   "ans": {
+    "expr": "5*5"
+   }
+  }
+ ]
+}

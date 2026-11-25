@@ -1,0 +1,15 @@
+{
+ "_kind": "quick",
+ "title": "Area",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "\\int_0^3 x^2\\,dx=9",
+   "say": "The area is nine.",
+   "check": {
+    "lhs": "integrate(x**2,(x,0,3))",
+    "rhs": "9"
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "_kind": "quick",
+ "title": "Radius and chord",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "circle",
+     "x": 0,
+     "y": 0,
+     "r": 2,
+     "label": "$C$"
+    },
+    {
+     "t": "line",
+     "x1": 0,
+     "y1": 0,
+     "x2": 1.4,
+     "y2": 1.4,
+     "label": "$r$",
+     "c": "red"
+    },
+    {
+     "t": "point",
+     "x": 0,
+     "y": 0,
+     "label": "$O$"
+    },
+    {
+     "t": "line",
+     "x1": -2,
+     "y1": 0,
+     "x2": 2,
+     "y2": 0,
+     "dashed": true
+    }
+   ],
+   "say": "A circle with a radius."
+  },
+  {
+   "k": "math",
+   "tex": "r=2",
+   "say": "The radius is two.",
+   "mark": "under"
+  }
+ ]
+}

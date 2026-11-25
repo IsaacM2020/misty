@@ -1,0 +1,16 @@
+{
+ "_kind": "stay",
+ "title": "Pancakes",
+ "blocks": [
+  {
+   "k": "steps",
+   "items": [
+    "Whisk eggs and milk",
+    "Add flour slowly",
+    "Rest ten minutes",
+    "Fry until golden"
+   ],
+   "say": "Four steps."
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+Page 1 of 1
+Share
+Maths homework
+20.0 cm³ of 0.10 mol/dm³ HCl neutralises 25.0 cm³ of NaOH. Find c(NaOH).
+n(HCl) = 0.10 × 0.0200 = 0.0020 mol
+1:1 so n(NaOH) = 0.0020
+c = 0.0020 / 0.0250
+c = 0.080 mol/dm³
+Help
+Word count: 38

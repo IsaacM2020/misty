@@ -1,0 +1,6 @@
+Page 1 of 1
+Saved to Drive
+A 2.0 kg trolley moves at 3.0 m/s. Find its kinetic energy.
+KE = 1/2 m v²
+KE = 0.5 × 2.0 × 3.0²
+KE = 9.0 N

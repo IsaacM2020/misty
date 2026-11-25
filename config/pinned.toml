@@ -1,0 +1,82 @@
+# Pinned external facts. Source of each value: docs/verify/*.md (M0, checked 2026-10-14).
+
+[openrouter]
+base_url = "https://openrouter.ai/api/v1"
+chat_path = "/chat/completions"
+systemone_path = "/systemone"
+referer = "https://misty.local"
+title = "Misty"
+
+[models]
+jev = "typesafe/jev-1.13"
+haiku = "anthropic/claude-haiku-5.5"
+haiku_provider_order = ["google-vertex/global", "amazon-bedrock"]
+haiku_min_cache_tokens = 512
+haiku_reasoning = { enabled = false }         # Haiku thinks by default and thinking eats the output cap
+# Q0 (2026-10-15), checked in docs/verify/models-q.md
+strong = "anthropic/claude-opus-5.5"          # life areas at onboarding, top-importance summaries if Q5 says so
+strong_provider_order = ["google-vertex/global", "amazon-bedrock"]
+strong_reasoning = { effort = "low" }         # reasoning is mandatory on this route: `enabled = false` is a 400
+answer_cheap = "qwen/qwen3-30b-a3b-instruct-2507"   # cheaper answerer for the eval's model-swap test (Q5: 4% loss vs Haiku; Gemma 3 27B lost 16-22%)
+cheap_provider_order = ["nebius/fp8", "siliconflow/fp8"]
+cheap_reasoning = { enabled = false }
+
+[prices]            # USD per 1M tokens
+jev_in = 0.042
+jev_out = 0.0
+haiku_in = 0.10
+haiku_out = 0.50
+haiku_cache_read = 0.01
+haiku_cache_write = 0.125
+strong_in = 4.00
+strong_out = 20.00
+strong_cache_read = 0.20
+cheap_in = 0.10
+cheap_out = 0.30
+
+[jev]
+max_input_tokens = 1500
+confidence_keep_below = 0.6
+multi_select_threshold = 0.5   # no native multi-select: one yes/no question per option
+
+[embedding]
+model_id = "mlx-community/embeddinggemma-2-bf16"
+revision = "1a4ffddb7905d3f63486748deabe091a01fb6201"
+source_model = "google/embeddinggemma-2"
+backend = "mlx"                 # via mlx-vlm; torch+torchvision are needed only for IMAGE preprocessing
+mlx_vlm_commit = "3d87e88402f307efbf68e568971aa887ee7d9ed0"
+dim = 768
+batch = 16
+max_len = 512
+query_prefix = "task: search result | query: "
+doc_prefix = "title: none | text: "
+image_support = true
+
+[sqlite_vec]
+version = "0.1.9"
+
+[force_graph]
+version = "1.52.0"
+url = "https://cdn.jsdelivr.net/npm/force-graph@1.52.0/dist/force-graph.min.js"
+sha256 = "f59db59ba92ff5a76ed93d7a4d77a703b176260e5d9cd29f4f8eb4f6c369a629"
+
+[resolve]               # entity resolution thresholds, calibrated on the real names (Q5, no paid calls)
+auto_cos = 0.92         # same words and at least this close: folded without asking the judge
+judge_cos = 0.80        # close enough to be worth a question
+auto_jaccard = 0.5      # shared words needed for an automatic fold
+min_sources = 2         # public notes before an entity may get a page
+
+[stream]            # Stream: any brain plugs in (design 2026-10-21). Prices USD per 1M tokens, for the pre-call estimate only.
+[stream.brains.haiku]
+id = "anthropic/claude-haiku-5.5"
+provider = { order = ["google-vertex/global", "amazon-bedrock"], allow_fallbacks = false }
+reasoning = { enabled = false }
+price_in = 0.10
+price_out = 0.50
+
+[stream.brains.qwen]
+id = "qwen/qwen3.8-27b"
+provider = {}
+reasoning = { effort = "low" }
+price_in = 0.035
+price_out = 2.20

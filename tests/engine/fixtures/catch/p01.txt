@@ -1,0 +1,8 @@
+Page 1 of 1
+Editing
+A car has u = 5 m/s and a = 3 m/s². Find t when v = 20 m/s.
+v = u + at
+20 = 5 + 3t
+3t = 20 + 5
+t = 25 / 3 = 8.3 s
+Help

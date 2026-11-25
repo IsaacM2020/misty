@@ -1,0 +1,19 @@
+{
+ "_kind": "quick",
+ "title": "Distance",
+ "blocks": [
+  {
+   "k": "text",
+   "text": "Distance is speed times time.",
+   "say": "Distance is speed times time."
+  },
+  {
+   "k": "math",
+   "tex": "d = 60 \\times 2.5 = \\ans",
+   "say": "A hundred and fifty.",
+   "ans": {
+    "expr": "60*2.5"
+   }
+  }
+ ]
+}

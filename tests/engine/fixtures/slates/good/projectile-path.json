@@ -1,0 +1,46 @@
+{
+ "_kind": "quick",
+ "title": "Projectile",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      10
+     ],
+     "y": [
+      0,
+      6
+     ],
+     "xl": "$x$",
+     "yl": "$y$"
+    },
+    {
+     "t": "plot",
+     "f": "-0.2*x**2+2*x",
+     "from": 0,
+     "to": 10,
+     "label": "$y=2x-0.2x^2$",
+     "c": "red"
+    },
+    {
+     "t": "point",
+     "x": 5,
+     "y": 5,
+     "label": "top",
+     "c": "red"
+    }
+   ],
+   "say": "The path is a parabola."
+  },
+  {
+   "k": "math",
+   "tex": "y_{\\max}=5",
+   "say": "The top is five.",
+   "mark": "under"
+  }
+ ]
+}

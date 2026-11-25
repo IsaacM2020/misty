@@ -1,0 +1,17 @@
+{
+ "_expect": {
+  "reject": true
+ },
+ "title": "wrong-derivative",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "f'(x)=-2\\cos(2x)",
+   "say": "Wrong.",
+   "check": {
+    "lhs": "diff(cos(2*x),x)",
+    "rhs": "-2*cos(2*x)"
+   }
+  }
+ ]
+}

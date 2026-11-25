@@ -1,0 +1,4 @@
+// Committed. Machine-specific signing lives in Signing.local.xcconfig (gitignored).
+#include? "Signing.local.xcconfig"
+// The wake word's sherpa-onnx library: written by scripts/fetch_wake_model.sh, absent until it has run.
+#include? "Vendor/sherpa-onnx/wake.xcconfig"

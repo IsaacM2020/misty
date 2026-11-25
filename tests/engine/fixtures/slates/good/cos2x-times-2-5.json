@@ -1,0 +1,20 @@
+{
+ "_kind": "quick",
+ "title": "cos(2x) x 2.5",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "f(x)=2.5\\cos(2x)",
+   "say": "Here is the function."
+  },
+  {
+   "k": "math",
+   "tex": "f'(x)=-5\\sin(2x)",
+   "say": "Differentiate it.",
+   "check": {
+    "lhs": "diff(2.5*cos(2*x),x)",
+    "rhs": "-5*sin(2*x)"
+   }
+  }
+ ]
+}

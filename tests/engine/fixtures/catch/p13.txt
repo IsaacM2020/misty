@@ -1,0 +1,9 @@
+Editing
+Page 1 of 1
+Comments
+Data: g = 9.81 m/s²
+A ball is thrown up at 15 m/s. Find the maximum height.
+v² = u² + 2as
+0 = 15² - 2 × 9.81 × h
+19.62 h = 225
+h = 225 / 19.62 = 11.5 m

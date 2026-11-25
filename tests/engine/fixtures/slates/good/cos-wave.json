@@ -1,0 +1,37 @@
+{
+ "_kind": "quick",
+ "title": "Cosine",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      6.3
+     ],
+     "y": [
+      -1.5,
+      1.5
+     ]
+    },
+    {
+     "t": "plot",
+     "f": "cosr(x)",
+     "from": 0,
+     "to": 6.3,
+     "label": "$\\cos x$",
+     "c": "red"
+    }
+   ],
+   "say": "One wave of cosine."
+  },
+  {
+   "k": "math",
+   "tex": "\\cos 0=1",
+   "say": "It starts at one.",
+   "mark": "under"
+  }
+ ]
+}

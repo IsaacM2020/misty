@@ -1,0 +1,31 @@
+# The made-up state the tool-pick check runs on (scripts/checks/toolpick.py). Nobody real: a stranger called Sam.
+# The same state every run, so a line only moves when her picking moves. Not Isaac's data on purpose.
+# Keep it small. Do NOT add a follow or fact that makes one of the phrasings already done (that turns a pick into "already on it").
+settings:
+  user_name: Sam
+  user_line: Sam is a student.
+  user_curriculum: IB
+card: |
+  Sam, 16, student in Singapore, IB class of 2028 (HL Math AA, Physics, Chemistry; SL Economics, English, Spanish B).
+  Likes chess and robotics. Prefers short, plain answers.
+facts:
+  - {key: bike, text: "Sam's bike is blue and lives in the garage."}
+  - {key: bus home, text: "Sam takes the 12 bus home from school."}
+  - {key: locker, text: "Sam's school locker is number 214."}
+  - {key: bee hive notes, text: "Sam's notes on building a bee hive are in the Bees folder.", link: "https://example.com/bee-hive-notes", link_title: "Bee hive notes"}
+  - {key: physics class link, text: "Sam's online physics class is on Google Meet at https://meet.example.com/phy-abc-def.", link: "https://meet.example.com/phy-abc-def", link_title: "Physics class"}
+  - {key: spanish class link, text: "Sam's Spanish class is on Google Meet at https://meet.example.com/esp-ghi-jkl.", link: "https://meet.example.com/esp-ghi-jkl", link_title: "Spanish class"}
+  - {key: english tutor, text: "Ms Lowe is Sam's English tutor outside school."}
+  - {key: math teacher, text: "Sam's school Math AA teacher is Mr Hale."}
+  - {key: english task, text: "Sam's English oral is due on 20 Nov."}
+follows:
+  - {text: "Tell Sam the results of the chess tournament as they come in.", source: web, query: "chess tournament results", every_min: 180}
+  - {text: "Tell Sam when the school posts the exam timetable.", source: web, query: "school exam timetable", every_min: 360}
+cares:
+  - {key: chess, text: "Sam cares a lot about chess.", kind: interest}
+  - {key: robotics club, text: "Sam wants to win the robotics club competition.", kind: goal}
+  - {key: sleep, text: "Sam wants to sleep eight hours on school nights.", kind: other}
+ways:
+  - {key: address, text: "Call him boss.", kind: address, value: boss}
+told:
+  - {said: "Heads up, the train line to school has a delay this morning.", source_name: "transit feed", how: say, urgency: normal, topic: "train delay", key: "train-delay"}

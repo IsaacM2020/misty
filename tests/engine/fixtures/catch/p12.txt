@@ -1,0 +1,5 @@
+Maths homework
+Find the power: 600 J of work done in 20 s.
+P = W / t
+P = 600 / 20
+P = 30 W

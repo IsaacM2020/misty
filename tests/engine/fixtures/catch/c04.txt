@@ -1,0 +1,6 @@
+Untitled document
+Comments
+Data: Ar: Mg = 24, O = 16
+Find the Mr of MgO.
+Mr(MgO) = 26 + 16
+= 42

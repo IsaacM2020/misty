@@ -1,0 +1,7 @@
+Comments
+File  Edit  View  Insert  Format  Tools
+Untitled document
+f(x) = 3x² − 5x + 7. Find f(2).
+f(2) = 3(2)² − 5(2) + 9
+= 12 − 10 + 9
+= 11

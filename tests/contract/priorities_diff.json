@@ -1,0 +1,14 @@
+{
+  "diff": [
+    {
+      "id": "d_d7da11",
+      "op": "remove",
+      "text": "NOI prep"
+    },
+    {
+      "id": "d_c75de5",
+      "op": "add",
+      "text": "IB reading"
+    }
+  ]
+}

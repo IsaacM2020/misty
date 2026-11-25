@@ -1,0 +1,7 @@
+100%
+Comments
+Maths homework
+Find the gradient between (1, 2) and (4, 11).
+m = (11 - 2) / (4 - 1)
+m = 9 / 3
+m = 3

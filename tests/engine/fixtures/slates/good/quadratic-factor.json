@@ -1,0 +1,20 @@
+{
+ "_kind": "quick",
+ "title": "Factor",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "x^2-5x+6=(x-2)(x-3)",
+   "say": "Factor it.",
+   "check": {
+    "lhs": "x**2-5*x+6",
+    "rhs": "(x-2)*(x-3)"
+   }
+  },
+  {
+   "k": "math",
+   "tex": "x=2,\\ 3",
+   "say": "Roots are two and three."
+  }
+ ]
+}

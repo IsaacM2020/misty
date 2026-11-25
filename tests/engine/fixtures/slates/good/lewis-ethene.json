@@ -1,0 +1,29 @@
+{
+ "_kind": "quick",
+ "title": "Ethene",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "molecule",
+     "formula": "C2H4"
+    }
+   ],
+   "say": "Here is the Lewis structure of ethene."
+  },
+  {
+   "k": "text",
+   "text": "\\ve valence electrons, \\bonds, \\lps lone pairs.",
+   "say": "\\ve valence electrons, \\bonds, \\lps lone pairs."
+  },
+  {
+   "k": "math",
+   "tex": "\\mathrm{C_{2}H_{4}}:\\ \\ans",
+   "ans": {
+    "chem": "geom"
+   },
+   "say": "So the shape is \\geom."
+  }
+ ]
+}

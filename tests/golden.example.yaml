@@ -1,0 +1,28 @@
+# Copy to tests/golden.yaml (gitignored) and write 30 real queries. ids must be unique.
+- id: g01
+  kind: search               # search | ask
+  q: "my physics IA draft"
+  expect_any: ["physics-ia", "Internal Assessment"]   # substring of title, locator or note path in the top 5
+- id: g02
+  kind: ask
+  q: "what's going on with iGEM"
+  expect_cites_any: ["projects/igem"]                 # a [[page]] the answer must cite
+  expect_answer_any: ["wiki", "deadline"]             # optional substrings in the answer
+- id: g03
+  kind: search
+  q: "cubing OLL PLL algorithms"
+  expect_any: ["OLL", "PLL"]
+- id: g04
+  kind: search
+  q: "iGEM wiki deadline"
+  expect_entities: ["projects/igem-wiki"]             # entity page paths, any one in the top 5 (survives merges)
+  must_not_cite: ["projects/igem-lead-biosensor-project"]   # optional: pages that must not be the answer
+- id: g05
+  kind: ask
+  q: "what's going on with iGEM"
+  expect_entities: ["projects/igem"]
+  reference: "The team is finishing the wiki before the freeze."   # one sentence the judge compares the answer to
+- id: g06
+  kind: pack
+  q: "I need context on the iGEM wiki"
+  expect_entities: ["projects/igem-wiki"]             # the context pack must include one of these, once

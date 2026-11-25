@@ -1,0 +1,3 @@
+tips = [
+  "Alfred is a launcher, not an app to work in. Don't use it: use open_app or open_url instead.",
+]

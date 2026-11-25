@@ -1,0 +1,29 @@
+{
+ "_kind": "quick",
+ "title": "Methanal",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "molecule",
+     "formula": "CH2O"
+    }
+   ],
+   "say": "Here is the Lewis structure of methanal."
+  },
+  {
+   "k": "text",
+   "text": "\\ve valence electrons, \\bonds, \\lps lone pairs.",
+   "say": "\\ve valence electrons, \\bonds, \\lps lone pairs."
+  },
+  {
+   "k": "math",
+   "tex": "\\mathrm{CH_{2}O}:\\ \\ans",
+   "ans": {
+    "chem": "geom"
+   },
+   "say": "So the shape is \\geom."
+  }
+ ]
+}

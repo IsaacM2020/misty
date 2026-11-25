@@ -1,0 +1,29 @@
+{
+  "ambiguous": false,
+  "candidates": [
+    {
+      "confidence": 0.6,
+      "facts": {
+        "as_of": "2026-10-15",
+        "first_seen": null,
+        "handles": [
+          {
+            "type": "phone",
+            "value": "+6591234567"
+          }
+        ],
+        "last_interaction": null,
+        "next_date": null,
+        "open_items": 0,
+        "relationship": null,
+        "role": null,
+        "status": null,
+        "summary_as_of": null
+      },
+      "id": "en_000000000000",
+      "name": "Aarav Shah",
+      "type": "person",
+      "why": "one-word name"
+    }
+  ]
+}

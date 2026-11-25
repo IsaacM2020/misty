@@ -1,0 +1,6 @@
+Share
+A runner covers 100 m in 12.5 s. Find the speed.
+speed = d / t
+speed = 100 / 12.5
+speed = 8 m/s²
+Help

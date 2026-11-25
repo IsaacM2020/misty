@@ -1,0 +1,30 @@
+{
+ "_kind": "quick",
+ "title": "Carbonate",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "molecule",
+     "formula": "CO3",
+     "charge": "2-"
+    }
+   ],
+   "say": "Here is the Lewis structure of carbonate."
+  },
+  {
+   "k": "text",
+   "text": "\\ve valence electrons, \\bonds, \\lps lone pairs.",
+   "say": "\\ve valence electrons, \\bonds, \\lps lone pairs."
+  },
+  {
+   "k": "math",
+   "tex": "\\mathrm{CO_{3}}^{2-}:\\ \\ans",
+   "ans": {
+    "chem": "geom"
+   },
+   "say": "So the shape is \\geom."
+  }
+ ]
+}

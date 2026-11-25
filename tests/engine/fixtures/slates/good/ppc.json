@@ -1,0 +1,29 @@
+{
+ "_kind": "quick",
+ "title": "PPC",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "curve_pair",
+     "kind": "ppc"
+    },
+    {
+     "t": "point",
+     "x": 4.8,
+     "y": 6.4,
+     "label": "$A$",
+     "c": "red"
+    }
+   ],
+   "say": "The frontier."
+  },
+  {
+   "k": "math",
+   "tex": "x^2+y^2=64",
+   "say": "Points on it are efficient.",
+   "mark": "under"
+  }
+ ]
+}

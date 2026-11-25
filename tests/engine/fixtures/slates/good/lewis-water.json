@@ -1,0 +1,29 @@
+{
+ "_kind": "quick",
+ "title": "Water",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "molecule",
+     "formula": "H2O"
+    }
+   ],
+   "say": "Here is the Lewis structure of water."
+  },
+  {
+   "k": "text",
+   "text": "\\ve valence electrons, \\bonds, \\lps lone pairs.",
+   "say": "\\ve valence electrons, \\bonds, \\lps lone pairs."
+  },
+  {
+   "k": "math",
+   "tex": "\\mathrm{H_{2}O}:\\ \\ans",
+   "ans": {
+    "chem": "geom"
+   },
+   "say": "So the shape is \\geom."
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": -32000,
+    "message": "KEY_INVALID"
+  },
+  "id": 7,
+  "jsonrpc": "2.0"
+}

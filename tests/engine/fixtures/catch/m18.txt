@@ -1,0 +1,7 @@
+Untitled document
+File  Edit  View  Insert  Format  Tools
+Evaluate sin 30° + cos 60°.
+sin30 + cos60 = 1/2 + 1/2 → 1
+??
+answer: 1
+Saved to Drive

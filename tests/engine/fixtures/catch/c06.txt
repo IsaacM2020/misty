@@ -1,0 +1,9 @@
+Maths homework
+100%
+Editing
+Data: Mr of O2 = 32
+How many moles are in 8.0 g of O2?
+n = m × Mr
+n = 8.0 × 32
+n = 256 mol
+Saved to Drive

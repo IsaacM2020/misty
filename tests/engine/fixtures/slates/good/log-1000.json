@@ -1,0 +1,14 @@
+{
+ "_kind": "quick",
+ "title": "Log",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "\\log_{10} 1000 = \\ans",
+   "say": "Three.",
+   "ans": {
+    "expr": "log(1000)"
+   }
+  }
+ ]
+}

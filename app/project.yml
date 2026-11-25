@@ -1,0 +1,80 @@
+name: Misty
+options:
+  bundleIdPrefix: com.isaacmiranda
+  deploymentTarget: { macOS: "15.0" }
+configFiles:
+  Debug: Base.xcconfig
+  Release: Base.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_HARDENED_RUNTIME: NO     # personal build; avoids library-validation issues with bundled Python + MLX
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "Apple Development"   # stable identity, so macOS keeps the Full Disk Access grant across rebuilds
+packages:
+  ptts:                                 # Phonon TTS (Gradium), Misty's spoken voice; module PhononTTS
+    url: https://github.com/gradium-ai/xn-ptts.git
+    exactVersion: 0.4.0                 # keep in step with scripts/fetch_voice_models.sh
+  phonon-coreml:                        # Phonon-2 (Fermion Research) speech to text on the Neural Engine; Misty's ears
+    path: Vendor/phonon-coreml          # 1.1.2 with its headers in a subfolder: scripts/fetch_ears_model.sh
+targets:
+  Misty:
+    type: application
+    platform: macOS
+    settings:
+      base:
+        PRODUCT_MODULE_NAME: MistyCore      # tests `@testable import MistyCore`, same as the swiftc harness
+        EXCLUDED_ARCHS: x86_64              # PhononCore is arm64 only
+    dependencies:
+      - package: ptts
+        product: ptts
+      - package: phonon-coreml
+        product: PhononCoreML
+    sources:
+      - path: Misty
+        excludes: ["Resources/slate/**"]
+      - path: Misty/Resources/slate   # the Slate page, KaTeX and Geist: kept as a folder so the paths inside work
+        type: folder
+        buildPhase: resources
+      - path: VoiceModels/PhononModels  # Core ML voice bundle from scripts/fetch_voice_models.sh, copied whole
+        type: folder
+        buildPhase: resources
+        optional: true
+    info:
+      path: Misty/Info.plist
+      properties:
+        CFBundleDisplayName: EDITH
+        CFBundleName: EDITH
+        CFBundleIconFile: EDITH
+        NSHumanReadableCopyright: "EDITH"
+        NSAppleEventsUsageDescription: "EDITH reads the page or file you have open when you say \u201Cthis\u201D."
+        NSMicrophoneUsageDescription: "EDITH listens when you tap Control+Option, and for her name (\u201CEdith\u201D) while the wake word is on. The name is spotted on this Mac; nothing is recorded or sent."
+        NSAudioCaptureUsageDescription: "In an online class EDITH listens to the sound your Mac plays (the teacher) and turns it into text. No audio is kept."
+    entitlements:
+      path: Misty/Misty.entitlements
+      properties: {}                # not sandboxed: needs Full Disk Access and arbitrary file reads
+    preBuildScripts:
+      - name: Verify force-graph checksum
+        script: '"${SRCROOT}/../scripts/verify_force_graph.sh"'
+        inputFiles: ["${SRCROOT}/Misty/Resources/force-graph.min.js"]
+    postBuildScripts:
+      - name: Bundle engine
+        script: '"${SRCROOT}/../scripts/bundle_engine.sh"'
+        inputFiles: []
+        outputFiles: ["${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Resources/engine/.engine-stamp"]
+        basedOnDependencyAnalysis: false   # always run; the script's own stamp decides whether to re-bundle
+  MistyTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: MistyTests
+    dependencies: [{ target: Misty }]
+    settings:
+      base:
+        EXCLUDED_ARCHS: x86_64
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Misty.app/Contents/MacOS/Misty"
+        BUNDLE_LOADER: "$(TEST_HOST)"

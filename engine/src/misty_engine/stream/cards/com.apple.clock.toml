@@ -1,0 +1,4 @@
+tips = [
+  "The Timers tab is in the window's toolbar or the View menu. The timer duration is set with hour/minute/second pickers, then press Start.",
+  "If a picker value can't be typed, use its increment/decrement controls or set its value with type_into on the picker field.",
+]

@@ -1,0 +1,9 @@
+100%
+Data: Ar: C = 12, H = 1, O = 16
+A compound is 40% C, 6.7% H, 53.3% O. Find the empirical formula.
+C: 40 / 12 = 3.33
+H: 6.7 / 1 = 6.7
+O: 53.3 / 16 = 3.33
+divide by 3.33: 1 : 2 : 1
+CH2O
+Suggesting

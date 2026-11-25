@@ -1,0 +1,356 @@
+- text: hi Ms Koh, I've signed the form and my mum will drop it off tomorrow
+  label: write
+  app: 'Mail - Re: Field trip forms'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: thank you for the reminder, I'll submit it by Friday
+  label: write
+  app: 'Mail - Re: Field trip forms'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: unfortunately I can't attend on the 12th, could I join the next one instead
+  label: write
+  app: 'Mail - Re: Field trip forms'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: anyone up for valorant tonight
+  label: write
+  app: 'Discord - #general'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: lol no way that's actually true
+  label: write
+  app: 'Discord - #general'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: gg that was a close one
+  label: write
+  app: 'Discord - #general'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: running a bit late, start without me
+  label: write
+  app: WhatsApp
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: did mum say what time dinner is
+  label: write
+  app: WhatsApp
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: send me the link when you get it
+  label: write
+  app: WhatsApp
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: add a column for the toss winner and retrain the model
+  label: write
+  app: Claude - Claude Code - cricket-win-predictor
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: the accuracy dropped after your last change, find out why
+  label: write
+  app: Claude - Claude Code - cricket-win-predictor
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: plot the win probability over the overs for the last match
+  label: write
+  app: Claude - Claude Code - cricket-win-predictor
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: use the same split as before so the numbers are comparable
+  label: write
+  app: Claude - Claude Code - cricket-win-predictor
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: refactor this into two smaller components
+  label: write
+  app: Cursor - app.tsx
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: summarise the causes of the cold war in five bullet points
+  label: write
+  app: ChatGPT - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: the writer uses short sentences to build tension in the final paragraph
+  label: write
+  app: Google Docs - English commentary - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: this contrasts sharply with the calm tone of the opening
+  label: write
+  app: Google Docs - English commentary - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: call the dentist, finish the chem worksheet, charge the camera
+  label: write
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: set a timer for forty minutes
+  label: for_her
+  app: Google Chrome - YouTube - paused
+  room: 0
+  since_reply: null
+  named: false
+- text: what's the weather like this weekend
+  label: for_her
+  app: Google Chrome - YouTube - paused
+  room: 0
+  since_reply: null
+  named: false
+- text: remind me to bring my PE kit tomorrow
+  label: for_her
+  app: Google Chrome - YouTube - paused
+  room: 0
+  since_reply: null
+  named: false
+- text: what does electronegativity mean
+  label: for_her
+  app: Preview - Chemistry notes.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: explain this graph
+  label: for_her
+  app: Preview - Chemistry notes.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: make me three flashcards from this page
+  label: for_her
+  app: Preview - Chemistry notes.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: open my IB folder
+  label: for_her
+  app: Finder
+  room: 0
+  since_reply: null
+  named: false
+- text: where's the photo I took yesterday
+  label: for_her
+  app: Finder
+  room: 0
+  since_reply: null
+  named: false
+- text: play the next song
+  label: for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: add this to my study playlist
+  label: for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: is this introduction too long
+  label: for_her
+  app: Pages - Extended essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: check this paragraph for grammar mistakes
+  label: for_her
+  app: Pages - Extended essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: what time is my exam on Monday
+  label: for_her
+  app: Calendar
+  room: 0
+  since_reply: null
+  named: false
+- text: block two hours on Saturday for revision
+  label: for_her
+  app: Calendar
+  room: 0
+  since_reply: null
+  named: false
+- text: wait show me what he sent
+  label: not_for_her
+  app: WhatsApp
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: no way he actually said that
+  label: not_for_her
+  app: WhatsApp
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: mum can I borrow your charger
+  label: not_for_her
+  app: WhatsApp
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: dad did you sign it already
+  label: not_for_her
+  app: 'Mail - Re: Field trip forms'
+  room: 4
+  since_reply: null
+  named: false
+  typing: true
+- text: it's in my bag, hold on
+  label: not_for_her
+  app: 'Mail - Re: Field trip forms'
+  room: 4
+  since_reply: null
+  named: false
+  typing: true
+- text: bro the model says India wins, no chance
+  label: not_for_her
+  app: Claude - Claude Code - cricket-win-predictor
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: I'm coming, two minutes
+  label: not_for_her
+  app: Claude - Claude Code - cricket-win-predictor
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: argh why is this so hard
+  label: not_for_her
+  app: Google Docs - English commentary - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: okay okay think
+  label: not_for_her
+  app: Google Docs - English commentary - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: what was I saying
+  label: not_for_her
+  app: Google Docs - English commentary - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: so the derivative of x squared is two x
+  label: not_for_her
+  app: Google Chrome - YouTube - Lecture
+  room: 0
+  since_reply: null
+  named: false
+- text: and that's the end of today's lesson
+  label: not_for_her
+  app: Google Chrome - YouTube - Lecture
+  room: 0
+  since_reply: null
+  named: false
+- text: pause the video and try it yourself
+  label: not_for_her
+  app: Google Chrome - YouTube - Lecture
+  room: 0
+  since_reply: null
+  named: false
+- text: can you guys see my screen
+  label: not_for_her
+  app: Microsoft Teams - Meeting
+  room: 2
+  since_reply: null
+  named: false
+  typing: true
+- text: I'll put the link in the chat
+  label: not_for_her
+  app: Microsoft Teams - Meeting
+  room: 2
+  since_reply: null
+  named: false
+  typing: true
+- text: what did you get for question three
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: null
+  named: false
+- text: can you pass the water
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: null
+  named: false
+- text: that's not fair
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: null
+  named: false
+- text: let's go after lunch
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: null
+  named: false
+- text: oh my god what
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: hmmm okay
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: come here kitty
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false

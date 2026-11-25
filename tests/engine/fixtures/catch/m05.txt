@@ -1,0 +1,4 @@
+Editing
+Find the area of a triangle with base 17 and height 6.
+17 × 6 = 112
+area = 112 / 2 = 56

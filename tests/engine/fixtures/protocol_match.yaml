@@ -1,0 +1,47 @@
+# D7 match set. protocols: what exists. matches = lines that must start the named protocol (20). misses = near-misses that must start nothing (20).
+protocols:
+  - {key: "math mode", triggers: ["let's do math", "math mode"], end: true}
+  - {key: "study time", triggers: ["study time", "time to study"]}
+  - {key: "reading", triggers: ["reading mode"]}
+matches:
+  - ["let's do math", "math mode"]
+  - ["Let's do math!", "math mode"]
+  - ["lets do math", "math mode"]
+  - ["ok let's do math", "math mode"]
+  - ["let's do math please", "math mode"]
+  - ["hey misty let's do math", "math mode"]
+  - ["math mode", "math mode"]
+  - ["Math mode.", "math mode"]
+  - ["start math mode", "math mode"]
+  - ["math mode please", "math mode"]
+  - ["ok math mode now", "math mode"]
+  - ["study time", "study time"]
+  - ["Study time!", "study time"]
+  - ["it's study time", "study time"]
+  - ["ok study time", "study time"]
+  - ["time to study", "study time"]
+  - ["time to study now", "study time"]
+  - ["reading mode", "reading"]
+  - ["reading mode please", "reading"]
+  - ["ok reading mode", "reading"]
+misses:
+  - "what is math mode"
+  - "can you explain math mode"
+  - "how do I turn off math mode"
+  - "is it study time?"
+  - "don't start math mode"
+  - "never let's do math"
+  - "no study time today"
+  - "stop math mode"
+  - "let's do maths homework"
+  - "let's do chemistry"
+  - "math is hard"
+  - "I hate math mode and also everything about this class today honestly"
+  - "my study time yesterday was at five and it went really badly"
+  - "remember that my study time is at five"
+  - "let's do math tomorrow after school at four with Arjun at the library"
+  - "reading is fun"
+  - "what time is the maths test"
+  - "mode"
+  - "can we do study time later?"
+  - "good night"

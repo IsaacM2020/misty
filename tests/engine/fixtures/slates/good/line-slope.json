@@ -1,0 +1,45 @@
+{
+ "_kind": "quick",
+ "title": "Straight line",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      6
+     ],
+     "y": [
+      0,
+      8
+     ],
+     "xl": "$x$",
+     "yl": "$y$"
+    },
+    {
+     "t": "plot",
+     "f": "2*x+1",
+     "from": 0,
+     "to": 3.5,
+     "label": "$y=2x+1$",
+     "c": "red"
+    },
+    {
+     "t": "point",
+     "x": 0,
+     "y": 1,
+     "label": "$(0,1)$"
+    }
+   ],
+   "say": "Slope two."
+  },
+  {
+   "k": "math",
+   "tex": "m=2",
+   "say": "The slope is two.",
+   "mark": "under"
+  }
+ ]
+}

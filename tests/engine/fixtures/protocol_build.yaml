@@ -1,0 +1,14 @@
+# D6 scored check (paid): 10 spoken-style descriptions. She is told "yes, save it" in the same message, so a save call is expected.
+# expect = the move names of the saved steps, in order. open_fact stands for a saved fact with a link ("math folder").
+- {say: "when I say let's do math, open Notes and start a 45 minute timer", expect: [open_app, timer_start]}
+- {say: "when I say study time, hide everything except Notes and turn focus on", expect: [apps_hide, focus]}
+- {say: "when I say let's work, open my math folder, start a 30 minute timer called work and turn focus on", expect: [open_fact, timer_start, focus]}
+- {say: "when I say reading time, open Preview and put focus on", expect: [open_app, focus]}
+- {say: "when I say split screen, put Safari and Notes side by side", expect: [windows_arrange]}
+- {say: "when I say english class, run my English Class shortcut and start a 50 minute timer", expect: [shortcut_run, timer_start]}
+- {say: "when I say chem time, open the chemistry website https://www.chemguide.co.uk and start a 40 minute timer", expect: [open_url, timer_start]}
+- {say: "when I say plan my week, add plan the week to my priorities and open Calendar", expect: [priority_add, open_app]}
+- {say: "when I say quiet please, turn focus on and hide everything except Notes", expect: [focus, apps_hide]}
+- {say: "when I say start revision, open my math folder and open Notes", expect: [open_fact, open_app]}
+- facts:
+    - {key: "math folder", text: "My Math folder is in Documents/Maths", link: "file:///Users/test/Documents/Maths", link_title: "Maths"}

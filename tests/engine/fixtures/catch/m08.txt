@@ -1,0 +1,4 @@
+Saved to Drive
+Expand (x + 3)(x + 5).
+(x + 3)(x + 5) = x² + 5x + 3x + 15
+= x² + 8x + 15

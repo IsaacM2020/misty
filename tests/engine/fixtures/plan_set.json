@@ -1,0 +1,122 @@
+[
+ {
+  "id": "newton2",
+  "subject": "physics",
+  "subject_title": "Physics",
+  "topic": "Newton's second law",
+  "school": true,
+  "paras": [
+   "Newton's second law says that the acceleration of an object depends on the net force acting on it and on its mass. The net force is the sum of all the forces on the object, taking direction into account. In symbols, F = ma, where F is the net force in newtons, m is the mass in kilograms and a is the acceleration in metres per second squared. A force of 10 N on a 4.0 kg trolley gives an acceleration of 2.5 m/s^2.",
+   "If the forces on an object are balanced, the net force is zero and the acceleration is zero, so the object stays at rest or keeps moving at a constant velocity. Doubling the mass while keeping the force the same halves the acceleration. Doubling the force while keeping the mass the same doubles the acceleration. The direction of the acceleration is always the direction of the net force.",
+   "Weight is the force of gravity on a mass. Near the Earth's surface the gravitational field strength is about 9.8 N/kg, so a 2.0 kg book has a weight of about 20 N. Free fall means the weight is the only force, so every object falls with an acceleration of about 9.8 m/s^2, whatever its mass."
+  ]
+ },
+ {
+  "id": "shc",
+  "subject": "physics",
+  "subject_title": "Physics",
+  "topic": "Specific heat capacity",
+  "school": true,
+  "paras": [
+   "The specific heat capacity of a material is the energy needed to raise the temperature of 1 kg of it by 1 degree Celsius. It is measured in joules per kilogram per degree Celsius. Water has a high specific heat capacity of 4200 J/kg/C, which is why it takes a lot of energy to heat water and why it stays warm for a long time.",
+   "The energy change is found with the equation E = m c delta T, where m is the mass in kilograms, c is the specific heat capacity and delta T is the temperature change. Heating 2.0 kg of water by 10 degrees needs 2.0 x 4200 x 10 = 84000 J. A material with a low specific heat capacity, such as copper, warms up quickly for the same energy.",
+   "To measure the specific heat capacity of a metal block, an electric heater is placed in the block and the energy supplied is found from the power and the time. The temperature rise is read from a thermometer. Wrapping the block in insulation reduces the energy lost to the surroundings, so the result is closer to the true value."
+  ]
+ },
+ {
+  "id": "refraction",
+  "subject": "physics",
+  "subject_title": "Physics",
+  "topic": "Refraction of light",
+  "school": true,
+  "paras": [
+   "Refraction is the change in direction of a light ray when it passes from one material into another, caused by a change in the speed of light. Light travels more slowly in glass than in air. When a ray goes from air into glass at an angle, it bends towards the normal, which is the line at right angles to the surface.",
+   "The refractive index of a material is the speed of light in a vacuum divided by the speed of light in the material. Glass has a refractive index of about 1.5. Snell's law says that n1 sin(i) = n2 sin(r), where i and r are the angles of incidence and refraction measured from the normal.",
+   "When light tries to leave glass into air at a large enough angle, it cannot escape. The angle of incidence at which the refracted ray just travels along the surface is called the critical angle. For angles bigger than the critical angle all the light is reflected, which is called total internal reflection. Optical fibres use total internal reflection to carry light signals."
+  ]
+ },
+ {
+  "id": "moles",
+  "subject": "chemistry",
+  "subject_title": "Chemistry",
+  "topic": "The mole and molar mass",
+  "school": true,
+  "paras": [
+   "The mole is the unit for the amount of a substance. One mole of any substance contains 6.02 x 10^23 particles, a number called the Avogadro constant. The particles can be atoms, molecules or ions, so you must say which one you mean.",
+   "The molar mass of a substance is the mass of one mole, and its unit is grams per mole. It has the same number as the relative formula mass. Water, H2O, has a relative formula mass of 18, so its molar mass is 18 g/mol. The number of moles is found with moles = mass divided by molar mass, so 36 g of water is 2.0 mol.",
+   "In a balanced equation the numbers in front of the formulas show the ratio of moles. In 2H2 + O2 -> 2H2O, two moles of hydrogen react with one mole of oxygen to make two moles of water. This ratio lets you work out the mass of a product from the mass of a reactant."
+  ]
+ },
+ {
+  "id": "rates",
+  "subject": "chemistry",
+  "subject_title": "Chemistry",
+  "topic": "Rates of reaction",
+  "school": true,
+  "paras": [
+   "The rate of a reaction tells you how fast reactants are used up or products are made. It can be measured by the volume of gas given off per minute or by how quickly a mixture goes cloudy. A steep line on a graph of product against time means a fast reaction.",
+   "For particles to react they must collide with enough energy. Collision theory says that anything which makes more successful collisions each second increases the rate. Raising the temperature makes particles move faster, so they collide more often and with more energy. Increasing the concentration of a solution puts more particles in the same volume, so collisions are more frequent.",
+   "A catalyst speeds up a reaction without being used up, because it gives the reaction an alternative pathway with a lower activation energy. Crushing a solid into a powder increases its surface area, so more particles are exposed and the rate goes up."
+  ]
+ },
+ {
+  "id": "ionic",
+  "subject": "chemistry",
+  "subject_title": "Chemistry",
+  "topic": "Ionic bonding",
+  "school": true,
+  "paras": [
+   "Ionic bonding happens between a metal and a non-metal. The metal atom loses electrons to form a positive ion and the non-metal atom gains those electrons to form a negative ion. The strong electrostatic attraction between the oppositely charged ions is the ionic bond.",
+   "Sodium has one outer electron and chlorine has seven. Sodium gives its electron to chlorine, making Na+ and Cl-, which both have a full outer shell. The formula of sodium chloride is NaCl because the charges balance in a one to one ratio. Magnesium forms Mg2+, so magnesium chloride is MgCl2.",
+   "Ionic compounds form a giant lattice in which every ion is surrounded by ions of the opposite charge. They have high melting points because a lot of energy is needed to break the many strong bonds. They conduct electricity when molten or dissolved in water, because the ions are then free to move, but not when solid."
+  ]
+ },
+ {
+  "id": "gitbranch",
+  "subject": "coding",
+  "subject_title": "Git",
+  "topic": "Branches in git",
+  "school": false,
+  "paras": [
+   "A branch in git is a movable pointer to a commit, which lets you work on a change without disturbing the main line of work. The default branch is usually called main. Creating a branch costs almost nothing, because git only stores a new pointer and does not copy any files.",
+   "You make a branch with the command git switch -c followed by the new name, which also moves you onto it. Commits you make now belong to the new branch only. To go back to the main branch you run git switch main, and your working files change to match it.",
+   "When the work on a branch is finished you bring it back with a merge. From the main branch you run git merge followed by the branch name. If both branches changed the same lines, git cannot choose and stops with a merge conflict. You then edit the file to keep the lines you want, add it and commit to finish the merge."
+  ]
+ },
+ {
+  "id": "sourdough",
+  "subject": "food",
+  "subject_title": "Baking",
+  "topic": "Looking after a sourdough starter",
+  "school": false,
+  "paras": [
+   "A sourdough starter is a mix of flour and water that holds wild yeast and bacteria. It needs feeding to stay alive, which means throwing most of it away and adding fresh flour and water. A common feeding is equal weights of starter, flour and water, written as 1 to 1 to 1.",
+   "A starter is ready to bake with when it has doubled in size a few hours after feeding and is full of bubbles. If you use it too early, the bread will not rise well. A ripe starter smells pleasantly sour, while a smell like nail polish remover means it is hungry and needs feeding.",
+   "At room temperature a starter needs feeding once or twice a day. In the fridge its activity slows right down, so it only needs feeding about once a week. Take it out of the fridge a day or two before baking and feed it a couple of times to wake it up."
+  ]
+ },
+ {
+  "id": "pacing",
+  "subject": "sport",
+  "subject_title": "Running",
+  "topic": "Pacing a long run",
+  "school": false,
+  "paras": [
+   "Pacing means spreading your effort evenly over a whole run so you do not tire early. Many beginners start too fast, feel strong for a few kilometres and then slow down badly. A steady pace uses your energy more efficiently and the end of the run feels much better.",
+   "A negative split is when the second half of a run is faster than the first half of the run. Elite marathon runners often race this way. To practise, start the first kilometre slower than feels natural and let the pace rise gently, so you finish strong.",
+   "A simple check is the talk test. If you can speak in short sentences while running, your pace is easy enough for a long run. If you can only say a few words, you are going too hard and should slow down."
+  ]
+ },
+ {
+  "id": "tyres",
+  "subject": "sport",
+  "subject_title": "Cycling",
+  "topic": "Fixing a puncture",
+  "school": false,
+  "paras": [
+   "A puncture happens when a sharp object makes a hole in the inner tube, so the air escapes and the tyre goes flat. To fix one on the road you need tyre levers, a spare tube or a patch kit, and a pump. Turn the bike over or lean it so the wheel can come off easily.",
+   "Let all the air out, then use two tyre levers to lift one side of the tyre off the rim. Pull the tube out. Before you put in the new tube, run your fingers carefully inside the tyre to find any thorn or glass that caused the puncture, and remove it, or the new tube will go flat too.",
+   "Put a little air in the new tube so it holds its shape, tuck it inside the tyre and push the tyre back onto the rim by hand, finishing at the valve. Pinching the tube under the tyre edge is the most common mistake, so check along both sides before you pump the tyre up to full pressure."
+  ]
+ }
+]

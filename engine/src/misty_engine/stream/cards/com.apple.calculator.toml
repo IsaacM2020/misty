@@ -1,0 +1,4 @@
+tips = [
+  "Fastest: type_keys the whole calculation, e.g. '1234*5678=' (use * for times, / for divide), then read the 'Edit field' value.",
+  "Press Clear first if the display already shows a number.",
+]

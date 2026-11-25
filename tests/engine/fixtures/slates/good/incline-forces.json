@@ -1,0 +1,51 @@
+{
+ "_kind": "quick",
+ "title": "Incline",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "line",
+     "x1": 0,
+     "y1": 0,
+     "x2": 4,
+     "y2": 2
+    },
+    {
+     "t": "vector",
+     "x1": 2,
+     "y1": 1,
+     "x2": 2,
+     "y2": -1,
+     "label": "$mg$",
+     "c": "red"
+    },
+    {
+     "t": "vector",
+     "x1": 2,
+     "y1": 1,
+     "x2": 1,
+     "y2": 2,
+     "label": "$N$",
+     "c": "red"
+    },
+    {
+     "t": "angle",
+     "x": 0,
+     "y": 0,
+     "from": 0,
+     "to": 27,
+     "label": "$\\theta$"
+    }
+   ],
+   "say": "Forces on the block."
+  },
+  {
+   "k": "math",
+   "tex": "a=g\\sin\\theta",
+   "say": "Acceleration down the slope.",
+   "mark": "under"
+  }
+ ]
+}

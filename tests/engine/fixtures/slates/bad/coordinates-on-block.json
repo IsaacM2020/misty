@@ -1,0 +1,24 @@
+{
+ "_expect": {
+  "dropped": 1
+ },
+ "title": "coordinates-on-block",
+ "blocks": [
+  {
+   "k": "text",
+   "text": "Hello",
+   "say": "Hi",
+   "x": 120,
+   "y": 300,
+   "left": 10
+  },
+  {
+   "k": "math",
+   "tex": "1 + 1 = \\ans",
+   "say": "Two.",
+   "ans": {
+    "expr": "1+1"
+   }
+  }
+ ]
+}

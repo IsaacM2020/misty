@@ -1,0 +1,9 @@
+# Copy to tests/golden.dups.yaml (gitignored). Used by the Q5 replay and acceptance A1.
+groups:                       # each list must end as ONE entity
+  - name: pranav
+    members: ["Pranav", "Pranav Asrani", "Pranav Naveen Asrani", "Pranav Asrani Real"]
+  - name: sat
+    kind: topic               # default is person
+    members: ["SAT practice", "SAT preparation", "SAT prep"]
+apart:                        # pairs that must NEVER merge
+  - ["Pranav", "Pranav Kumar"]

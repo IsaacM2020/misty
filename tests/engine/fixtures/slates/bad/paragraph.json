@@ -1,0 +1,21 @@
+{
+ "_expect": {
+  "dropped": 0
+ },
+ "title": "paragraph",
+ "blocks": [
+  {
+   "k": "text",
+   "text": "This is a long paragraph that keeps going and going well past the point where a short key line would have stopped on a slate.",
+   "say": "This is a long paragraph that keeps going and going well past the point where a short key line would have stopped on a slate."
+  },
+  {
+   "k": "math",
+   "tex": "1 + 1 = \\ans",
+   "say": "Two.",
+   "ans": {
+    "expr": "1+1"
+   }
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "results": [
+    {
+      "item_id": "it_c000000000000001",
+      "locator": "/x/it_c000000000000001",
+      "score": 0.0328,
+      "snippet": "\u00abigem\u00bb-\u00abnotes\u00bb.md\n\u00abiGEM\u00bb wiki \u00abnotes\u00bb about the parts",
+      "source": "folders",
+      "title": "igem-notes.md"
+    }
+  ],
+  "route": "file"
+}

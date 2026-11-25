@@ -1,0 +1,31 @@
+{
+ "_expect": {
+  "dropped": 1
+ },
+ "title": "nine-steps",
+ "blocks": [
+  {
+   "k": "steps",
+   "items": [
+    "Step 0",
+    "Step 1",
+    "Step 2",
+    "Step 3",
+    "Step 4",
+    "Step 5",
+    "Step 6",
+    "Step 7",
+    "Step 8"
+   ],
+   "say": "Nine."
+  },
+  {
+   "k": "math",
+   "tex": "1 + 1 = \\ans",
+   "say": "Two.",
+   "ans": {
+    "expr": "1+1"
+   }
+  }
+ ]
+}

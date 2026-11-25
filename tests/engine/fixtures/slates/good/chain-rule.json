@@ -1,0 +1,15 @@
+{
+ "_kind": "quick",
+ "title": "Chain rule",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "\\frac{d}{dx}e^{3x}=3e^{3x}",
+   "say": "Chain rule.",
+   "check": {
+    "lhs": "diff(exp(3*x),x)",
+    "rhs": "3*exp(3*x)"
+   }
+  }
+ ]
+}

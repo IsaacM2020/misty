@@ -1,0 +1,14 @@
+{
+ "_kind": "quick",
+ "title": "2 to the 10",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "2^{10} = \\ans",
+   "say": "One thousand twenty-four.",
+   "ans": {
+    "expr": "2**10"
+   }
+  }
+ ]
+}

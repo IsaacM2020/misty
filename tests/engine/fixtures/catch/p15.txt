@@ -1,0 +1,9 @@
+Saved to Drive
+Page 1 of 1
+A car slows from 30 m/s to rest in 5.0 s. Find a.
+v = u + at → 0 = 30 + 5a
+5a = -30
+a = -6
+(negative = slowing, ok)
+Suggesting
+Saved to Drive

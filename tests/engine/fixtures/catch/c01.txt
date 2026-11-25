@@ -1,0 +1,9 @@
+Untitled document
+Share
+Hess: ΔH1 + ΔH2 = ΔH3. ΔH2 = -286 kJ/mol and ΔH3 = -890 kJ/mol. Find ΔH1.
+ΔH1 + ΔH2 = ΔH3
+x + (-286) = -890
+x = -890 - 286
+x = -1176 kJ/mol
+Saved to Drive
+Word count: 38

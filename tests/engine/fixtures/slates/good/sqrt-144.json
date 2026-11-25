@@ -1,0 +1,14 @@
+{
+ "_kind": "quick",
+ "title": "Root",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "\\sqrt{144} = \\ans",
+   "say": "Twelve.",
+   "ans": {
+    "expr": "sqrt(144)"
+   }
+  }
+ ]
+}

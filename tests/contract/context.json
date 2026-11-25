@@ -1,0 +1,62 @@
+{
+  "dropped": [],
+  "entities": [
+    {
+      "facts": {},
+      "freshness_days": 2,
+      "id": "projects/igem.md",
+      "name": "iGEM",
+      "now": [
+        "write part 3 docs"
+      ],
+      "path": "projects/igem.md",
+      "summary": "The iGEM wiki project.",
+      "type": "project",
+      "why": "matched the topic"
+    },
+    {
+      "facts": {},
+      "freshness_days": null,
+      "id": "people/aarav.md",
+      "name": "Aarav",
+      "now": [],
+      "path": "people/aarav.md",
+      "summary": "Teammate.",
+      "type": "person",
+      "why": "shares notes with a matched entity"
+    }
+  ],
+  "open_now": [
+    {
+      "due": null,
+      "item_id": "it_c000000000000001",
+      "kind": "card",
+      "text": "Reply to aarav@x.com: Wiki sync"
+    },
+    {
+      "due": null,
+      "item_id": "it_c000000000000001",
+      "kind": "card",
+      "text": "To do: submit form"
+    },
+    {
+      "due": null,
+      "item_id": null,
+      "kind": "now",
+      "text": "iGEM: write part 3 docs"
+    }
+  ],
+  "pages": [
+    "projects/igem.md",
+    "people/aarav.md"
+  ],
+  "sources_used": [
+    "about",
+    "open_now",
+    "pages",
+    "hop",
+    "timeline"
+  ],
+  "text": "## about-isaac\nIsaac, a student. This is a placeholder card: replace it with a few lines about you\n(what you study or work on, what you care about, how you like to be helped).\nMisty reads it until its own wiki page about you exists, then that page takes over.\n\n## open now\n- Reply to aarav@x.com: Wiki sync\n- To do: submit form\n- iGEM: write part 3 docs\n\n## [[projects/igem]] (project \u00b7 last activity 2026-10-13)\nSummary: The iGEM wiki project.\nNow:\n- write part 3 docs\nTimeline:\n- 2026-10-13: wiki sync\n- 2026-10-02: kickoff\n\n## [[people/aarav]] (person)\nSummary: Teammate.",
+  "tokens": 144
+}

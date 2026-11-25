@@ -1,0 +1,37 @@
+{
+ "_kind": "quick",
+ "title": "Absolute value",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      -4,
+      4
+     ],
+     "y": [
+      0,
+      5
+     ]
+    },
+    {
+     "t": "plot",
+     "f": "abs(x)",
+     "from": -4,
+     "to": 4,
+     "label": "$|x|$",
+     "c": "red"
+    }
+   ],
+   "say": "A V shape."
+  },
+  {
+   "k": "math",
+   "tex": "|{-3}|=3",
+   "say": "Never below zero.",
+   "mark": "under"
+  }
+ ]
+}

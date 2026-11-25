@@ -1,0 +1,14 @@
+{
+ "_kind": "quick",
+ "title": "sin 30",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "\\sin 30^\\circ = \\ans",
+   "say": "A half.",
+   "ans": {
+    "expr": "sin(30)"
+   }
+  }
+ ]
+}

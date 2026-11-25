@@ -1,0 +1,19 @@
+{
+ "_kind": "quick",
+ "title": "Hypotenuse",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "c^2=3^2+4^2",
+   "say": "Square and add."
+  },
+  {
+   "k": "math",
+   "tex": "c=\\sqrt{25}=\\ans",
+   "say": "Five.",
+   "ans": {
+    "expr": "sqrt(3**2+4**2)"
+   }
+  }
+ ]
+}

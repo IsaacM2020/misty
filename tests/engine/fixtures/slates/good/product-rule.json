@@ -1,0 +1,15 @@
+{
+ "_kind": "quick",
+ "title": "Product rule",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "\\frac{d}{dx}(x^2\\sin x)=2x\\sin x+x^2\\cos x",
+   "say": "Product rule.",
+   "check": {
+    "lhs": "diff(x**2*sin(x),x)",
+    "rhs": "2*x*sin(x)+x**2*cos(x)"
+   }
+  }
+ ]
+}

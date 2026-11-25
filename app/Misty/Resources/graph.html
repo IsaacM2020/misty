@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; --bg: #0f1115; --fg: #e9ecf1; --muted: #8b93a3; }
+  @media (prefers-color-scheme: light) { :root { --bg: #f6f7f9; --fg: #1b1f27; --muted: #6a7384; } }
+  html, body { margin: 0; height: 100%; background: var(--bg); overflow: hidden; font-family: -apple-system, system-ui; }
+  #g { width: 100vw; height: 100vh; }
+</style>
+<script src="force-graph.min.js"></script>
+</head>
+<body>
+<div id="g"></div>
+<script>
+  const hue = (i) => (i * 67 + 200) % 360;
+  let areaIndex = {};
+  let fitPending = false;              // fit the view once the layout has settled, then leave the zoom alone
+  let hover = null;                    // node under the pointer
+  let near = new Set();                // hover + its neighbours
+  const dark = () => window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const ink = () => dark() ? '#e9ecf1' : '#1b1f27';
+  const quiet = () => dark() ? '#8b93a3' : '#6a7384';
+  const endId = (e) => (typeof e === 'object' ? e.id : e);
+  const touches = (l, n) => n && (endId(l.source) === n.id || endId(l.target) === n.id);
+
+  const Graph = ForceGraph()(document.getElementById('g'))
+    .backgroundColor('rgba(0,0,0,0)')
+    .nodeId('id')
+    .nodeRelSize(1)
+    .cooldownTicks(200)
+    .autoPauseRedraw(false)
+    .onEngineStop(() => { if (fitPending) { fitPending = false; Graph.zoomToFit(500, 70); } })
+    // lines stay out of the way: only the thin "belongs" spokes show; the rest appear when you point at a node
+    .linkVisibility(l => l.kind === 'belongs' || touches(l, hover))
+    .linkColor(l => touches(l, hover) ? (dark() ? 'rgba(200,208,225,0.75)' : 'rgba(60,70,90,0.7)')
+                                      : (dark() ? 'rgba(140,150,170,0.10)' : 'rgba(80,90,110,0.12)'))
+    .linkWidth(l => touches(l, hover) ? 1.4 : 0.6)
+    .linkLineDash(l => l.kind === 'involves' ? [4, 3] : l.kind === 'related' ? [1, 3] : null)
+    .linkCanvasObjectMode(l => l.kind === 'involves' && l.weight ? 'after' : undefined)
+    .linkCanvasObject((l, ctx, scale) => {
+      if (!touches(l, hover) || !l.weight) return;
+      const mx = (l.source.x + l.target.x) / 2, my = (l.source.y + l.target.y) / 2;
+      ctx.font = `${10 / scale}px -apple-system, system-ui`;
+      ctx.textAlign = 'center';
+      ctx.fillStyle = quiet();
+      ctx.fillText(String(l.weight), mx, my);
+    })
+    .nodeCanvasObject((n, ctx, scale) => {
+      const h = hue(areaIndex[n.area] ?? 0);
+      const base = n.type === 'self' ? (dark() ? '#ffffff' : '#1b1f27') : `hsl(${h}, 62%, ${dark() ? 64 : 50}%)`;
+      const dim = hover && !near.has(n.id);
+      const r = n.type === 'area' ? n.radius * 1.15 : n.type === 'self' ? n.radius : n.radius * 0.8;
+      ctx.save();
+      if (hover && n.id === hover.id) { ctx.shadowColor = base; ctx.shadowBlur = 16; }
+      ctx.beginPath();
+      if (n.type === 'group') {                       // chat-only people folded together: a rounded square
+        const c = 4;
+        ctx.moveTo(n.x - r + c, n.y - r); ctx.arcTo(n.x + r, n.y - r, n.x + r, n.y + r, c);
+        ctx.arcTo(n.x + r, n.y + r, n.x - r, n.y + r, c); ctx.arcTo(n.x - r, n.y + r, n.x - r, n.y - r, c);
+        ctx.arcTo(n.x - r, n.y - r, n.x + r, n.y - r, c); ctx.closePath();
+      } else {
+        ctx.arc(n.x, n.y, r, 0, 2 * Math.PI);
+      }
+      ctx.fillStyle = n.type === 'more' ? 'rgba(140,150,170,0.35)' : base;
+      ctx.globalAlpha = dim ? 0.15 : (n.type === 'area' || n.type === 'self') ? 1 : 0.55 + 0.45 * Math.min(1, n.glow + 0.2);
+      ctx.fill();
+      ctx.restore();
+
+      // labels: areas and "me" always; entities only when pointed at, next to the pointer, or zoomed right in
+      const pointed = hover && near.has(n.id);
+      const showEntity = pointed || (scale >= 2.6 && n.importance >= 2 && !dim);
+      const show = n.type === 'self' || n.type === 'area' || n.type === 'more' || n.type === 'group' || showEntity;
+      if (!show) return;
+      const full = n.type === 'group' ? `${n.label} (${n.members})` : n.label;
+      const text = full.length > 26 ? full.slice(0, 25) + '…' : full;     // long names are cut so labels do not run into each other
+      const size = (n.type === 'area' ? 13 : 11) / scale;
+      ctx.font = `${n.type === 'area' || n.type === 'self' ? '600 ' : ''}${size}px -apple-system, system-ui`;
+      ctx.textAlign = 'center';
+      const y = n.type === 'more' ? n.y + 3 / scale : n.y + r + 12 / scale;
+      if (n.type !== 'more') {                        // soft pill behind the text so it stays readable over lines
+        const w = ctx.measureText(text).width + 8 / scale;
+        ctx.fillStyle = dark() ? 'rgba(15,17,21,0.78)' : 'rgba(246,247,249,0.85)';
+        ctx.fillRect(n.x - w / 2, y - size * 0.95, w, size * 1.35);
+      }
+      ctx.globalAlpha = dim ? 0.3 : 1;
+      ctx.fillStyle = ink();
+      ctx.fillText(text, n.x, y);
+      ctx.globalAlpha = 1;
+    })
+    .nodePointerAreaPaint((n, color, ctx) => { ctx.fillStyle = color; ctx.beginPath(); ctx.arc(n.x, n.y, n.radius + 4, 0, 2 * Math.PI); ctx.fill(); })
+    .onNodeHover(n => {
+      hover = n || null;
+      near = new Set();
+      if (n) {
+        near.add(n.id);
+        Graph.graphData().links.forEach(l => {
+          if (endId(l.source) === n.id) near.add(endId(l.target));
+          if (endId(l.target) === n.id) near.add(endId(l.source));
+        });
+      }
+      document.getElementById('g').style.cursor = n ? 'pointer' : 'default';
+    })
+    .onNodeClick(n => {
+      if (window.webkit && window.webkit.messageHandlers.misty) {
+        if (n.type === 'more') window.webkit.messageHandlers.misty.postMessage({ type: 'more', id: n.parent });
+        else window.webkit.messageHandlers.misty.postMessage({ type: n.type === 'area' ? 'area' : 'node', id: n.id });
+      }
+    });
+
+  // entities orbit their area: a gentle pull toward the area's ring position
+  Graph.d3Force('areaPull', (alpha) => {
+    for (const n of Graph.graphData().nodes) {
+      if (n.fixed) continue;
+      n.vx += (n.areaX - n.x) * 0.12 * alpha;
+      n.vy += (n.areaY - n.y) * 0.12 * alpha;
+    }
+  });
+  // loose springs and some push between neighbours: entities settle in their slot instead of crowding the middle
+  Graph.d3Force('link').distance(70).strength(0.04);
+  Graph.d3Force('charge').strength(-70);
+
+  window.setGraph = (data) => {
+    const areas = data.nodes.filter(n => n.type === 'area');
+    areaIndex = {};
+    areas.forEach((a, i) => { areaIndex[a.id.replace(/^areas\//, '')] = i; });
+    data.nodes.forEach(n => { if (n.fixed) { n.fx = n.x; n.fy = n.y; } });
+    // "+N" bubble beside an area that has entities not shown: opens the searchable list
+    const extra = [], extraLinks = [];
+    areas.forEach(a => {
+      if (a.more > 0) {
+        const id = 'more:' + a.id;
+        extra.push({ id, type: 'more', label: '+' + a.more, parent: a.id, radius: 10, glow: 0, importance: 1,
+                     area: null, x: a.x + 26, y: a.y - 22, areaX: a.x + 26, areaY: a.y - 22, fixed: true,
+                     fx: a.x + 26, fy: a.y - 22 });
+        extraLinks.push({ source: id, target: a.id, kind: 'belongs' });
+      }
+    });
+    Graph.graphData({ nodes: data.nodes.concat(extra),
+                      links: data.edges.map(e => ({ source: e.source, target: e.target, kind: e.kind, weight: e.weight }))
+                                        .concat(extraLinks) });
+    fitPending = true;
+    Graph.zoomToFit(400, 60);
+  };
+  window.focusNode = (id) => {
+    const n = Graph.graphData().nodes.find(x => x.id === id);
+    if (n) { Graph.centerAt(n.x, n.y, 600); Graph.zoom(3, 600); }
+  };
+  window.addEventListener('resize', () => Graph.width(window.innerWidth).height(window.innerHeight));
+</script>
+</body>
+</html>

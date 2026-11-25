@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Slate dev</title>
+<link rel="stylesheet" href="katex/katex.min.css"><link rel="stylesheet" href="slate.css"></head>
+<body>
+<div class="grain"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" result="d"/><feGaussianBlur in="d" stdDeviation="0.25"/></filter>
+  <filter id="roughText" x="-5%" y="-10%" width="110%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="9" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5"/></filter>
+</svg>
+<main id="stage"></main>
+<script src="katex/katex.min.js"></script>
+<script src="slate.js"></script>
+<script src="fixtures.js"></script>
+<script src="dev-tests.js"></script>
+<script>
+/* Dev page: dev.html?f=five-times-five&fast=50 (fixtures.js is built by scripts/build_slate_fixtures.py). */
+const q=new URLSearchParams(location.search);
+if(q.get('fast'))window.FAST=+q.get('fast');
+window.FIXTURES=window.FIXTURES||{};
+const name=q.get('f')||Object.keys(FIXTURES)[0];
+window.playFixture=n=>window.slate.play(FIXTURES[n],{fade:false});
+if(name&&FIXTURES[name]&&!q.get('manual'))playFixture(name);
+</script>
+</body></html>

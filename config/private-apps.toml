@@ -1,0 +1,36 @@
+# Apps she must not look at: the screen frame says only "a private app", and read_screen and look refuse. Seeded once into
+# the setting `private_apps`; after that he changes the list by talking ("don't look at WhatsApp", "you can look at Notes again").
+# Add his bank by talking: bank app ids differ by country, so none are guessed here. A private browser window cannot be told
+# apart through Accessibility in the C0 run (not found), so private windows are not covered yet.
+
+[[app]]
+name = "1Password"
+bundle = "com.1password.1password"
+
+[[app]]
+name = "1Password 7"
+bundle = "com.agilebits.onepassword7"
+
+[[app]]
+name = "Bitwarden"
+bundle = "com.bitwarden.desktop"
+
+[[app]]
+name = "KeePassXC"
+bundle = "org.keepassxc.keepassxc"
+
+[[app]]
+name = "Dashlane"
+bundle = "com.dashlane.dashlanephonefinal"
+
+[[app]]
+name = "LastPass"
+bundle = "com.lastpass.LastPass"
+
+[[app]]
+name = "Keychain Access"
+bundle = "com.apple.keychainaccess"
+
+[[app]]
+name = "Passwords"
+bundle = "com.apple.Passwords"

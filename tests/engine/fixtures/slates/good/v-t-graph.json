@@ -1,0 +1,54 @@
+{
+ "_kind": "quick",
+ "title": "Speed against time",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      10
+     ],
+     "y": [
+      0,
+      20
+     ],
+     "xl": "$t$",
+     "yl": "$v$"
+    },
+    {
+     "t": "plot",
+     "f": "2*x",
+     "from": 0,
+     "to": 10,
+     "label": "$v=2t$",
+     "c": "red"
+    },
+    {
+     "t": "line",
+     "x1": 5,
+     "y1": 0,
+     "x2": 5,
+     "y2": 10,
+     "dashed": true
+    },
+    {
+     "t": "point",
+     "x": 5,
+     "y": 10,
+     "label": "$(5,10)$",
+     "c": "red"
+    }
+   ],
+   "say": "Speed climbs steadily."
+  },
+  {
+   "k": "math",
+   "tex": "a=\\frac{10}{5}=2",
+   "say": "Acceleration is two.",
+   "mark": "under"
+  }
+ ]
+}

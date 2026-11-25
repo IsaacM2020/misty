@@ -1,0 +1,295 @@
+# Made-up phrasings for the tool-pick check (scripts/checks/toolpick.py). No real names. One or more per tool.
+# `state: true` = only makes sense when the thing already exists in his data, so the repo sample skips it (his own set keeps it).
+# `expect_tool: none` means she should just answer. His real set lives outside the repo: ~/Misty/checks/toolpick.yaml
+- {say: "remember that my bike is blue", expect_tool: remember}
+- {say: "forget what I told you about my bike", expect_tool: remember, state: true}
+- {say: "keep an eye on the chess tournament results for me", expect_tool: follow}
+- {say: "only tell me things three times a day at most", expect_tool: speak_up}
+- {say: "what should I work on next", expect_tool: work_on}
+- {say: "never tell me anything between ten at night and eight in the morning", expect_tool: speak_up}
+- {say: "tell me it's good that you spoke up about the train delay, that was useful", expect_tool: feedback, state: true}
+- {say: "stop watching the chess tournament", expect_tool: follow, state: true}
+- {say: "chess matters a lot to me", expect_tool: care}
+- {say: "stop caring about chess", expect_tool: care, expect_args_contains: drop, state: true}
+- {say: "open my bee hive notes", expect_tool: open_fact, state: true}
+- {say: "what did I write about bee hives", expect_tool: recall}
+- {say: "search the web for the best beginner beehive", expect_tool: search}
+- {say: "go to my desktop and make a new folder called Bees", expect_tool: do}
+- {say: "show me my chemistry class notes from yesterday", expect_tool: class_notes}
+- {say: "what did the teacher say about moles in class", expect_tool: class_search}
+- {say: "what's on my calendar tomorrow", expect_tool: calendar}
+- {say: "what is on my screen right now", expect_tool: look}
+- {say: "any mail from the school today", expect_tool: mail}
+- {say: "how much have you cost me this week", expect_tool: costs}
+- {say: "which files did I change on Tuesday", expect_tool: recent_files}
+- {say: "what is 17 times 43", expect_tool: calc}
+- {say: "when do I have chess club", expect_tool: calendar}
+- {say: "tell me about my day, brief me", expect_tool: work_on}
+- {say: "thanks, that's all", expect_tool: none}
+- {say: "hello, how are you", expect_tool: none}
+- {say: "what's the capital of France", expect_tool: none}
+- {say: "say that again, shorter", expect_tool: none}
+# B2: the way tool, and the borders around it
+- {say: "call me boss", expect_tool: way, expect_args_contains: boss}
+- {say: "from now on call me captain", expect_tool: way, expect_args_contains: captain}
+- {say: "be drier, less cheerful", expect_tool: way}
+- {say: "stop saying good morning", expect_tool: way}
+- {say: "never start with hello, just get to the point", expect_tool: way}
+- {say: "keep your answers to one sentence unless I ask for more", expect_tool: way}
+- {say: "swear a bit, it's fine", expect_tool: way}
+- {say: "talk to me like a mate, less formal", expect_tool: way}
+- {say: "don't use emoji ever", expect_tool: way}
+- {say: "stop saying sorry all the time", expect_tool: way}
+- {say: "be more blunt with me", expect_tool: way}
+- {say: "forget the boss thing, just call me by my name", expect_tool: way}
+- {say: "cricket matters a lot to me", expect_tool: care}
+- {say: "don't tell me about football scores", expect_tool: lesson}
+- {say: "my physics tutor is Prashant and he teaches on Tuesdays", expect_tool: remember}
+- {say: "always tell me straight away when something about my exams comes up", expect_tool: lesson}
+- {say: "you tell me too much, cut it down to twice a day", expect_tool: speak_up}
+- {say: "keep an eye on my cricket team scores this week", expect_tool: follow}
+- {say: "remember I'm vegetarian", expect_tool: remember}
+- {say: "how do I have you set up", expect_tool: none}
+# B2b: corrections (should call feedback with wanted) and plain refusals (should not)
+- {say: "no, I meant the drill, not the calendar", expect_tool: feedback, expect_args_contains: wanted}
+- {say: "I didn't ask you to open that", expect_tool: feedback, expect_args_contains: wanted}
+- {say: "wrong, you should have searched the web for that", expect_tool: feedback, expect_args_contains: wanted}
+- {say: "no, I wanted my mail, not my calendar", expect_tool: feedback, expect_args_contains: wanted}
+- {say: "that's not what I asked, I just wanted an answer, no tools", expect_tool: feedback, expect_args_contains: wanted}
+- {say: "you picked the wrong thing again, I meant for you to draw it", expect_tool: feedback, expect_args_contains: wanted}
+- {say: "no thanks", expect_tool: none}
+- {say: "stop", expect_tool: none}
+- {say: "never mind", expect_tool: none}
+- {say: "not right now", expect_tool: none}
+# B6: settings by talking (10 lines for the setting tool) and its two borders
+- {say: "mute yourself", expect_tool: setting, expect_args_contains: speak_replies}
+- {say: "stop talking out loud, just type", expect_tool: setting, expect_args_contains: speak_replies}
+- {say: "you can speak again", expect_tool: setting, expect_args_contains: speak_replies}
+- {say: "unmute", expect_tool: setting, expect_args_contains: speak_replies}
+- {say: "use the other voice", expect_tool: setting, expect_args_contains: voice}
+- {say: "switch to a different voice", expect_tool: setting, expect_args_contains: voice}
+- {say: "which voices can you use", expect_tool: setting, expect_args_contains: voice}
+- {say: "raise your daily budget to a dollar", expect_tool: setting, expect_args_contains: daily_budget}
+- {say: "set your daily spend limit to fifty cents", expect_tool: setting, expect_args_contains: daily_budget}
+- {say: "let yourself spend up to two dollars a day", expect_tool: setting, expect_args_contains: daily_budget}
+- {say: "tell me less", expect_tool: speak_up}
+- {say: "be quieter in tone, less chatty", expect_tool: way}
+# Step C4: read_screen (his window's text, free) against look (a picture). Frame-answerable "this" questions are not here.
+- {say: "read the rest of this page and tell me what it says", expect_tool: read_screen}
+- {say: "what does the paragraph below the one I selected say", expect_tool: read_screen}
+- {say: "summarise this whole document on my screen", expect_tool: read_screen}
+- {say: "what's at the top of this page", expect_tool: read_screen}
+- {say: "read me the error message on my screen", expect_tool: read_screen}
+- {say: "what does the email I have open say", expect_tool: read_screen}
+- {say: "go through this article I have open and pull out the dates", expect_tool: read_screen}
+- {say: "check the code in my editor for typos in the comments", expect_tool: read_screen}
+- {say: "what's the next question on this worksheet", expect_tool: read_screen}
+- {say: "read what's on my screen", expect_tool: read_screen}
+- {say: "what does the graph on my screen show", expect_tool: look}
+- {say: "look at the circuit diagram I have open", expect_tool: look}
+- {say: "can you read my handwriting in this photo", expect_tool: look}
+- {say: "what colour is the line on the chart in front of me", expect_tool: look}
+- {say: "describe the layout of this slide", expect_tool: look}
+# Step C6: apps she can't see
+- {say: "don't look at WhatsApp", expect_tool: setting, expect_args_contains: private_app}
+- {say: "never look at my banking app", expect_tool: setting, expect_args_contains: private_app}
+- {say: "keep your eyes off Discord", expect_tool: setting, expect_args_contains: private_app}
+- {say: "you can look at Notes again", expect_tool: setting, expect_args_contains: private_app}
+- {say: "stop hiding Spotify from yourself", expect_tool: setting, expect_args_contains: private_app}
+- {say: "make Telegram private, you shouldn't see it", expect_tool: setting, expect_args_contains: private_app}
+# Step C7: the activity trail
+- {say: "what was I working on this afternoon", expect_tool: work_on}
+- {say: "what was I doing between 2 and 5", expect_tool: work_on}
+- {say: "which documents did I spend time on yesterday", expect_tool: work_on}
+- {say: "stop tracking what I work on", expect_tool: setting, expect_args_contains: activity_trail}
+- {say: "start keeping track of what I work on again", expect_tool: setting, expect_args_contains: activity_trail}
+# Step D1: move (typed actions) against do (clicking) and the open tools
+- {say: "open Preview", expect_tool: move}
+- {say: "launch Spotify", expect_tool: move}
+- {say: "open the Safari app", expect_tool: move}
+- {say: "open this link for me https://example.com/page", expect_tool: move}
+- {say: "open my Math folder", expect_tool: move, state: true, live: true}
+- {say: "bring up the Calculator", expect_tool: move}
+- {say: "go to https://www.khanacademy.org", expect_tool: move}
+- {say: "open Notes please", expect_tool: move}
+- {say: "start up Keynote", expect_tool: move}
+- {say: "open the Downloads folder", expect_tool: move}
+- {say: "click the blue button in Notion", expect_tool: do}
+- {say: "type my name into the form that's open in Safari", expect_tool: do}
+- {say: "open the thing I saved for physics", expect_tool: open_fact}
+- {say: "let's go", expect_tool: lets_go, needs: lets_go}
+- {say: "forget my bus fact", expect_tool: remember, expect_args_contains: forget}
+
+# D6: protocols (saved by talking), against remember and way
+- {say: "when I say let's do math, open Notes and start a 45 minute timer", expect_tool: [none, protocol]}
+- {say: "make a protocol: when I say study time, hide everything except Notes and turn on focus", expect_tool: [none, protocol]}
+- {say: "what protocols do I have", expect_tool: protocol}
+- {say: "show me my math mode protocol", expect_tool: protocol}
+- {say: "delete my study time protocol", expect_tool: protocol}
+- {say: "when I say I'm done, turn focus off and stop the timer", expect_tool: [none, protocol]}
+- {say: "my math folder is in Documents slash Maths", expect_tool: remember}
+- {say: "from now on be less formal with me", expect_tool: way}
+- {say: "start a 25 minute timer", expect_tool: move}
+- {say: "save it", expect_tool: [none, protocol]}
+
+# D8: what she did, and undo (move with action did or undo)
+- {say: "undo that", expect_tool: move}
+- {say: "take that back", expect_tool: move}
+- {say: "what did you do today", expect_tool: move}
+- {say: "what have you done for me so far today", expect_tool: move}
+- {say: "no, that's not what I meant, I wanted the drill", expect_tool: feedback}
+# Step E2: course (add_source, show). Made-up phrasings, no real names.
+- {say: "learn from this pdf, it's my half marathon training guide", expect_tool: course, expect_args_contains: add_source, tag: course}
+- {say: "use https://example.org/rust-book to teach me Rust", expect_tool: course, expect_args_contains: add_source, tag: course}
+- {say: "use my last python class as something to learn from", expect_tool: course, expect_args_contains: add_source, tag: course}
+- {say: "I want to learn from this chapter I have open", expect_tool: course, expect_args_contains: add_source, tag: course}
+- {say: "here is the syllabus, /Users/sam/Documents/cooking-syllabus.pdf, learn what it covers", expect_tool: course, expect_args_contains: add_source, tag: course}
+- {say: "what am I learning from right now", expect_tool: course, expect_args_contains: show, tag: course}
+- {say: "remember that my training guide is the green one", expect_tool: remember, tag: course}
+- {say: "what is on my screen right now, read it to me", expect_tool: read_screen, tag: course}
+- {say: "what did I write about my training guide", expect_tool: recall, tag: course}
+# Step E3: course map and change. Made-up phrasings.
+- {say: "map out the topics in /Users/sam/Documents/running-guide.pdf for running", expect_tool: course, expect_args_contains: map, tag: course}
+- {say: "turn https://example.org/knitting-syllabus into a list of topics, call it knitting", expect_tool: course, expect_args_contains: map, tag: course}
+- {say: "pacing doesn't need negative splits first, take that link out", expect_tool: course, expect_args_contains: drop_need, tag: course}
+- {say: "negative splits should need pacing first", expect_tool: course, expect_args_contains: add_need, tag: course}
+- {say: "add a topic on hydration to my running map", expect_tool: course, expect_args_contains: add_topic, tag: course}
+- {say: "drop the fuelling topic from running", expect_tool: course, expect_args_contains: drop_topic, tag: course}
+- {say: "show me the topics for running in order", expect_tool: course, expect_args_contains: show, tag: course}
+# Step E7: teach (start, stop, resume, easier, harder). Made-up phrasings.
+- {say: "teach me negative splits", expect_tool: teach, expect_args_contains: start, tag: teach}
+- {say: "start my running lesson", expect_tool: teach, expect_args_contains: start, tag: teach}
+- {say: "let's do the pacing topic now", expect_tool: teach, expect_args_contains: start, tag: teach}
+- {say: "stop the lesson", expect_tool: teach, expect_args_contains: stop, tag: teach}
+- {say: "ok carry on with the lesson", expect_tool: teach, expect_args_contains: resume, tag: teach}
+- {say: "make the lesson easier, explain it another way", expect_tool: teach, expect_args_contains: easier, tag: teach}
+- {say: "this lesson is too easy, make it harder", expect_tool: teach, expect_args_contains: harder, tag: teach}
+- {say: "what did my chem class cover yesterday", expect_tool: class_notes, tag: teach}
+- {say: "what should I work on next", expect_tool: work_on, tag: teach}
+- {say: "draw me a velocity time graph for a falling ball", expect_tool: draw, tag: teach}
+- {say: "remember that my running coach is called Sam", expect_tool: remember, tag: teach}
+# Step E9: teach_this (teach start with what "this"). Borders: solve, course add_source, read_screen. Paid check pending.
+- {say: "teach me this chapter", expect_tool: teach, expect_args_contains: this, tag: teach_this}
+- {say: "go through this page with me", expect_tool: teach, expect_args_contains: this, tag: teach_this}
+- {say: "walk me through what we did in running class today", expect_tool: teach, expect_args_contains: start, tag: teach_this}
+- {say: "teach me this article", expect_tool: teach, expect_args_contains: this, tag: teach_this}
+- {say: "just learn from this pdf for later, don't teach me yet", expect_tool: course, expect_args_contains: add_source, tag: teach_this}
+- {say: "what does this page say, read it out", expect_tool: read_screen, tag: teach_this}
+- {say: "can you solve this problem on my screen", expect_tool: solve, tag: teach_this}
+# Step E11: drill and level (teach actions). Borders: teach start, recall, class_notes, lesson (speak-up), solve. Paid check pending.
+- {say: "drill me on running", expect_tool: teach, expect_args_contains: drill, tag: drill}
+- {say: "quiz me on what I've been learning", expect_tool: teach, expect_args_contains: drill, tag: drill}
+- {say: "test me on my chemistry topics", expect_tool: teach, expect_args_contains: drill, tag: drill}
+- {say: "give me a quick drill", expect_tool: teach, expect_args_contains: drill, tag: drill}
+- {say: "what am I worst at in running", expect_tool: teach, expect_args_contains: level, tag: drill}
+- {say: "what should I revise this week", expect_tool: teach, expect_args_contains: level, tag: drill}
+- {say: "which topics am I weakest on", expect_tool: teach, expect_args_contains: level, tag: drill}
+- {say: "what is due for review", expect_tool: teach, expect_args_contains: level, tag: drill}
+- {say: "teach me the pacing topic from scratch", expect_tool: teach, expect_args_contains: start, tag: drill}
+- {say: "what did I tell you about my race date", expect_tool: recall, tag: drill}
+- {say: "what did my chem class cover yesterday", expect_tool: class_notes, tag: drill}
+- {say: "can you solve this problem on my screen", expect_tool: solve, tag: drill}
+# Step E12: the mistakes book (teach drill mine, slips, flag). Borders: teach drill, recall, class_notes, solve. Paid check pending.
+- {say: "go over my mistakes from this week", expect_tool: teach, expect_args_contains: mine, tag: slips}
+- {say: "review the things I got wrong", expect_tool: teach, expect_args_contains: mine, tag: slips}
+- {say: "redo my mistakes", expect_tool: teach, expect_args_contains: mine, tag: slips}
+- {say: "what have I been getting wrong lately", expect_tool: teach, expect_args_contains: slips, tag: slips}
+- {say: "show me my mistakes from today", expect_tool: teach, expect_args_contains: slips, tag: slips}
+- {say: "how many mistakes did I make this week", expect_tool: teach, expect_args_contains: slips, tag: slips}
+- {say: "that answer was wrong, the key is wrong", expect_tool: teach, expect_args_contains: flag, tag: slips}
+- {say: "no, that question was wrong, you marked me wrong but I was right", expect_tool: teach, expect_args_contains: flag, tag: slips}
+- {say: "drill me on chemistry", expect_tool: teach, expect_args_contains: drill, tag: slips}
+- {say: "what did I tell you about my race date", expect_tool: recall, tag: slips}
+- {say: "what did my chem class cover yesterday", expect_tool: class_notes, tag: slips}
+- {say: "can you solve this problem on my screen", expect_tool: solve, tag: slips}
+# Step E14: course_make (course make, change pace, deadline, skip_topic, pause, drop). Borders: teach start, follow, remember, setting, recall, work_on. Paid check pending.
+- {say: "get me ready for the half marathon training guide by the end of May", expect_tool: course, expect_args_contains: make, tag: course_make}
+- {say: "make me a plan to learn physics from zero in 8 weeks", expect_tool: course, expect_args_contains: make, tag: course_make}
+- {say: "I want to be ready for my chemistry exam by 15 June, plan it out", expect_tool: course, expect_args_contains: make, tag: course_make}
+- {say: "slow down the plan, it's too much", expect_tool: course, expect_args_contains: pace, tag: course_make, state: true}
+- {say: "skip the vectors topic in my physics plan", expect_tool: course, expect_args_contains: skip_topic, tag: course_make, state: true}
+- {say: "push my course deadline to June", expect_tool: course, expect_args_contains: deadline, tag: course_make, state: true}
+- {say: "pause my physics course for now", expect_tool: course, expect_args_contains: pause, tag: course_make, state: true}
+- {say: "drop my spanish course, I'm done with it", expect_tool: course, expect_args_contains: drop, tag: course_make, state: true}
+- {say: "yes, save the plan", expect_tool: course, expect_args_contains: make, tag: course_make, state: true}
+- {say: "make me a study plan for my python book by next month", expect_tool: course, expect_args_contains: make, tag: course_make}
+- {say: "teach me the first topic of my plan right now", expect_tool: teach, expect_args_contains: start, tag: course_make}
+- {say: "remember that my exam is on the 15th of June", expect_tool: remember, tag: course_make}
+- {say: "set my daily budget to fifty cents", expect_tool: setting, tag: course_make}
+- {say: "what should I work on next", expect_tool: work_on, tag: course_make}
+# Step E15: the daily bite. Her ask is "Ten minutes on X for Y?"; his yes is teach start, later and not today are teach bite. Borders: remember, work_on, teach start. Paid check pending.
+- {say: "later, ask me again tonight", expect_tool: teach, expect_args_contains: later, tag: bite, state: true}
+- {say: "maybe later, I'm in the middle of something", expect_tool: teach, expect_args_contains: later, tag: bite, state: true}
+- {say: "not today", expect_tool: teach, expect_args_contains: not_today, tag: bite, state: true}
+- {say: "no, skip it today, I'm tired", expect_tool: teach, expect_args_contains: not_today, tag: bite, state: true}
+- {say: "yes, let's do it", expect_tool: teach, expect_args_contains: start, tag: bite, state: true}
+- {say: "sure, go ahead", expect_tool: teach, expect_args_contains: start, tag: bite, state: true}
+- {say: "what should I work on today", expect_tool: work_on, tag: bite}
+- {say: "remember that I don't like studying before breakfast", expect_tool: remember, tag: bite}
+- {say: "teach me the chain rule", expect_tool: teach, expect_args_contains: start, tag: bite}
+# E16: how he wants to be taught is a way of kind teach (expect_args_contains checks the text she saves). Borders: remember, care.
+- {say: "when you teach me, use football examples", expect_tool: way, expect_args_contains: teach, tag: ways_teach}
+- {say: "don't give me the answer, make me work for it", expect_tool: way, expect_args_contains: teach, tag: ways_teach}
+- {say: "quiz me in French from now on", expect_tool: way, expect_args_contains: teach, tag: ways_teach}
+- {say: "go slow on anything with proofs when you teach me", expect_tool: way, expect_args_contains: teach, tag: ways_teach}
+- {say: "remember that my football team is the one in red", expect_tool: remember, tag: ways_teach}
+- {say: "football matters a lot to me", expect_tool: care, tag: ways_teach}
+# E13: paper mode (teach exam_start, exam_end). Borders: teach drill, teach start, teach stop. Paid check pending.
+- {say: "run a past paper for 40 minutes", expect_tool: teach, expect_args_contains: exam_start, tag: paper}
+- {say: "give me a timed physics paper, one hour", expect_tool: teach, expect_args_contains: exam_start, tag: paper}
+- {say: "exam me on that paper I sent, 25 minutes", expect_tool: teach, expect_args_contains: exam_start, tag: paper}
+- {say: "stop the paper, I'm out of time", expect_tool: teach, expect_args_contains: exam_end, tag: paper, state: true}
+- {say: "end the exam and mark it", expect_tool: teach, expect_args_contains: exam_end, tag: paper, state: true}
+- {say: "quiz me on what I'm weakest at", expect_tool: teach, expect_args_contains: drill, tag: paper}
+- {say: "teach me the chain rule", expect_tool: teach, expect_args_contains: start, tag: paper}
+
+# F5: ambient mode. Four to turn it on or off, and borders against mute, speaking up less, and class notes.
+- {say: "turn on ambient mode", expect_tool: setting, expect_args_contains: ambient, tag: ambient}
+- {say: "listen for your name from now on", expect_tool: setting, expect_args_contains: ambient, tag: ambient}
+- {say: "stop listening for my name", expect_tool: setting, expect_args_contains: ambient, tag: ambient}
+- {say: "ambient off", expect_tool: setting, expect_args_contains: ambient, tag: ambient}
+- {say: "mute your voice, I only want text", expect_tool: setting, expect_args_contains: speak_replies, tag: ambient}
+- {say: "talk to me less often", expect_tool: speak_up, tag: ambient}
+- {say: "what did the teacher say about moles in class yesterday", expect_tool: class_search, tag: ambient}
+
+# S7: when the Slate opens (tag s7)
+- {say: "what's 5 times 5", expect_tool: slate, tag: slate}
+- {say: "differentiate x cubed times sin x", expect_tool: slate, tag: slate}
+- {say: "find the derivative of e to the 2x and show it", expect_tool: slate, tag: slate}
+- {say: "solve x squared minus 5x plus 6 equals zero step by step", expect_tool: slate, tag: slate}
+- {say: "show me the unit circle at pi over 6", expect_tool: slate, tag: slate}
+- {say: "sketch the graph of y equals x squared minus 4", expect_tool: slate, tag: slate}
+- {say: "a 5 kg block slides down a 30 degree incline, draw the forces", expect_tool: slate, tag: slate}
+- {say: "draw the free body diagram for a ball thrown up", expect_tool: slate, tag: slate}
+- {say: "draw the Lewis structure of CO2", expect_tool: slate, tag: slate}
+- {say: "show the shape of methane with its bond angle", expect_tool: slate, tag: slate}
+- {say: "draw supply and demand with a price ceiling", expect_tool: slate, tag: slate}
+- {say: "draw the PPC and show what an outward shift means", expect_tool: slate, tag: slate}
+- {say: "give me a step by step protocol for a gel electrophoresis", expect_tool: slate, tag: slate}
+- {say: "walk me through a pancake recipe step by step", expect_tool: slate, tag: slate}
+- {say: "split a 94 dollar bill between 4 people with 10 percent tip", expect_tool: slate, tag: slate}
+- {say: "write out a study plan for IB chemistry this week", expect_tool: slate, tag: slate}
+- {say: "show the steps to balance H2 plus O2 to make water", expect_tool: slate, tag: slate}
+- {say: "lay out a Spanish preterite conjugation table for hablar", expect_tool: slate, tag: slate}
+- {say: "map out the structure of a Paper 1 English analysis essay", expect_tool: slate, tag: slate}
+- {say: "show how to find the vertex of a parabola with a worked example", expect_tool: slate, tag: slate}
+- {say: "what time is it", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "open Safari", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "how are you", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "what's the weather like today", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "who is the prime minister of Singapore", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "thanks, that's all", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "what's the capital of Japan", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "play some music", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "what does ephemeral mean", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "tell me a joke", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "I'm tired today", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "remind me what I said about my bike", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "what's on my calendar tomorrow", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "which chemistry teacher do I have", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "do you think I should take a break", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "say that again, shorter", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "is it going to rain later", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "what's your name", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "good morning", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}
+- {say: "what year did the Berlin wall fall", expect_tool: [none, calendar, do, recall, search, open_fact, class_search, calc], tag: slate}

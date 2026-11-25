@@ -1,0 +1,35 @@
+{
+  "badge": true,
+  "build": {
+    "done": 0,
+    "failed": 0,
+    "id": "bd_000000000001",
+    "paused_by": null,
+    "phase": "compile",
+    "spent_usd": 0.0123,
+    "total": 1
+  },
+  "capped": [],
+  "health": null,
+  "online": true,
+  "paused": false,
+  "queue": {},
+  "sources": [
+    {
+      "health": "ok",
+      "last_ok_at": 1791999000.0,
+      "source": "folders"
+    },
+    {
+      "health": "needs_fda",
+      "last_ok_at": null,
+      "source": "imessage"
+    }
+  ],
+  "spend": {
+    "build": 0.0123,
+    "cap_build": 3.0,
+    "cap_daily": 0.2,
+    "today": 0.0
+  }
+}

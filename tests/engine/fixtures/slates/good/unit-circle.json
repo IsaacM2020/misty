@@ -1,0 +1,75 @@
+{
+ "_kind": "quick",
+ "title": "Unit circle at 60 degrees",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      -1.3,
+      1.3
+     ],
+     "y": [
+      -1.3,
+      1.3
+     ]
+    },
+    {
+     "t": "circle",
+     "x": 0,
+     "y": 0,
+     "r": 1
+    },
+    {
+     "t": "line",
+     "x1": 0,
+     "y1": 0,
+     "x2": 0.5,
+     "y2": 0.866025
+    },
+    {
+     "t": "line",
+     "x1": 0.5,
+     "y1": 0,
+     "x2": 0.5,
+     "y2": 0.866025,
+     "label": "$\\sin=\\tfrac{\\sqrt3}{2}$",
+     "c": "red"
+    },
+    {
+     "t": "line",
+     "x1": 0,
+     "y1": 0,
+     "x2": 0.5,
+     "y2": 0,
+     "label": "$\\cos=\\tfrac12$",
+     "c": "red"
+    },
+    {
+     "t": "point",
+     "x": 0.5,
+     "y": 0.866025,
+     "label": "$(\\tfrac12,\\tfrac{\\sqrt3}{2})$"
+    },
+    {
+     "t": "angle",
+     "x": 0,
+     "y": 0,
+     "from": 0,
+     "to": 60,
+     "label": "$\\pi/3$",
+     "c": "red"
+    }
+   ],
+   "say": "Sixty degrees round the circle."
+  },
+  {
+   "k": "math",
+   "tex": "\\sin 60^\\circ=\\frac{\\sqrt3}{2}",
+   "say": "The sine of sixty.",
+   "mark": "under"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "jsonrpc": "2.0",
+  "method": "suggestion.new",
+  "params": {
+    "id": "sg_00000000000001",
+    "kind": "reply",
+    "urgency": "now"
+  }
+}

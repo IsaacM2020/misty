@@ -1,0 +1,37 @@
+{
+ "_kind": "quick",
+ "title": "Sine",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      6.3
+     ],
+     "y": [
+      -1.5,
+      1.5
+     ]
+    },
+    {
+     "t": "plot",
+     "f": "sinr(x)",
+     "from": 0,
+     "to": 6.3,
+     "label": "$\\sin x$",
+     "c": "red"
+    }
+   ],
+   "say": "One full wave."
+  },
+  {
+   "k": "math",
+   "tex": "T=2\\pi",
+   "say": "It repeats every two pi.",
+   "mark": "under"
+  }
+ ]
+}

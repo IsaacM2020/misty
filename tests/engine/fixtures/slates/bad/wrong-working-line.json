@@ -1,0 +1,25 @@
+{
+ "_expect": {
+  "dropped": 1
+ },
+ "title": "wrong-working-line",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "3\\times4=13",
+   "say": "Wrong.",
+   "check": {
+    "lhs": "3*4",
+    "rhs": "13"
+   }
+  },
+  {
+   "k": "math",
+   "tex": "1 + 1 = \\ans",
+   "say": "Two.",
+   "ans": {
+    "expr": "1+1"
+   }
+  }
+ ]
+}

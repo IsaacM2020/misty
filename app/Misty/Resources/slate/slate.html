@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slate</title>
+<link rel="stylesheet" href="katex/katex.min.css">
+<link rel="stylesheet" href="slate.css">
+</head>
+<body>
+<div class="grain"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" result="d"/>
+    <feGaussianBlur in="d" stdDeviation="0.25"/>
+  </filter>
+  <filter id="roughText" x="-5%" y="-10%" width="110%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="9" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="1.5"/>
+  </filter>
+</svg>
+<main id="stage"></main>
+<button id="hbtn" class="pill hb">History</button>
+<aside id="hist" aria-label="Past slates"><div class="hh">Past slates</div><div id="hlist"></div></aside>
+<script src="katex/katex.min.js"></script>
+<script src="slate.js"></script>
+</body>
+</html>

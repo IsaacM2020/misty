@@ -1,0 +1,17 @@
+{
+ "_expect": {
+  "reject": true
+ },
+ "title": "injection-check",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "1=1",
+   "say": "Hmm.",
+   "check": {
+    "lhs": "__import__('os').getcwd()",
+    "rhs": "1"
+   }
+  }
+ ]
+}

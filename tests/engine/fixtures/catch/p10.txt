@@ -1,0 +1,7 @@
+File  Edit  View  Insert  Format  Tools
+Resistors of 4 Ω and 6 Ω are in parallel. Find the total R.
+1/R = 1/4 + 1/6
+1/R = 3/12 + 2/12 = 5/12
+R = 12/5 = 2.4 Ω
+Suggesting
+Page 1 of 1

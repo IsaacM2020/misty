@@ -1,0 +1,1533 @@
+- text: tell her Wednesday afternoon is better for me and I'll bring the slides
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: reply that I got the file and I'll look at it tonight
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: say thanks so much, that really helps
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: write back that I can't make it Friday but Monday works
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: 'answer him: sounds good, see you at three'
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: let them know the report is attached and to call me if anything's unclear
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: respond saying I'm interested and ask what the pay is
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: reply no worries, take your time
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: draft a reply asking when the deadline is
+  label: for_her
+  app: Gmail - Inbox - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: write hi Mr Tan, I was absent on Monday, could you send me the worksheet
+  label: for_her
+  app: Gmail - Inbox - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: reply to this one saying I've already paid
+  label: for_her
+  app: Gmail - Inbox - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: summarise this email for me
+  label: for_her
+  app: Gmail - Inbox - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: who sent me this and what do they want
+  label: for_her
+  app: Gmail - Inbox - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: post saying I pushed the new mockups, have a look when you can
+  label: for_her
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: reply in the thread that I'll fix the header tomorrow
+  label: for_her
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: type heads up, the build is broken on main
+  label: for_her
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: message back yeah I'm free after lunch
+  label: for_her
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: reply on my way, ten minutes
+  label: for_her
+  app: WhatsApp
+  room: 1
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: text back that I'll call her later
+  label: for_her
+  app: WhatsApp
+  room: 1
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: tell it to merge the three classifiers into one decision model and keep the tests passing
+  label: for_her
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: write make the pill fade out slower, like half a second
+  label: for_her
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: ask it why the build is failing on the swift tests
+  label: for_her
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: type add a dark mode to the settings page and don't touch the voice code
+  label: for_her
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: say no, revert that last change, it broke the login
+  label: for_her
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: 'put in: rename the function to load profile and update every caller'
+  label: for_her
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: tell claude to write a test for the empty input case
+  label: for_her
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: what's the command to see which process is using port three thousand
+  label: for_her
+  app: Terminal - zsh
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: how do I undo my last git commit but keep the changes
+  label: for_her
+  app: Terminal - zsh
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: make this paragraph more formal
+  label: for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: add a sentence at the end saying this changed the course of the war
+  label: for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: 'write: in conclusion, the treaty failed because it ignored economic reality'
+  label: for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: fix the grammar in what I just wrote
+  label: for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: is this paragraph too long
+  label: for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: add milk eggs and bread to my shopping list
+  label: for_her
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: write down that the plumber is coming Thursday at nine
+  label: for_her
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: 'new note: ideas for the science fair, solar powered fan'
+  label: for_her
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: explain this diagram to me
+  label: for_her
+  app: Safari - Khan Academy - Photosynthesis
+  room: 0
+  since_reply: null
+  named: false
+- text: what's the difference between the light reactions and the Calvin cycle
+  label: for_her
+  app: Safari - Khan Academy - Photosynthesis
+  room: 0
+  since_reply: null
+  named: false
+- text: quiz me on this page
+  label: for_her
+  app: Safari - Khan Academy - Photosynthesis
+  room: 0
+  since_reply: null
+  named: false
+- text: save this page for later
+  label: for_her
+  app: Safari - Khan Academy - Photosynthesis
+  room: 0
+  since_reply: null
+  named: false
+- text: how do I do question four
+  label: for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: why is the answer to part b not twelve
+  label: for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: give me a hint for this one without telling me the answer
+  label: for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: mark my answer to question two, I got 3.4 metres per second
+  label: for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: open my downloads folder
+  label: for_her
+  app: Finder
+  room: 0
+  since_reply: null
+  named: false
+- text: find the pdf I downloaded yesterday
+  label: for_her
+  app: Finder
+  room: 0
+  since_reply: null
+  named: false
+- text: what's taking up all my storage
+  label: for_her
+  app: Finder
+  room: 0
+  since_reply: null
+  named: false
+- text: skip this song
+  label: for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: turn it down a bit
+  label: for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: play something chill for studying
+  label: for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: what song is this
+  label: for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: what do I have tomorrow
+  label: for_her
+  app: Calendar
+  room: 0
+  since_reply: null
+  named: false
+- text: move my dentist appointment to Friday at four
+  label: for_her
+  app: Calendar
+  room: 0
+  since_reply: null
+  named: false
+- text: am I free on Saturday afternoon
+  label: for_her
+  app: Calendar
+  room: 0
+  since_reply: null
+  named: false
+- text: add football practice every Tuesday at five
+  label: for_her
+  app: Calendar
+  room: 0
+  since_reply: null
+  named: false
+- text: set a timer for twenty five minutes
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: remind me to call grandma at seven
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: what's the weather tomorrow
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: how far is the airport from here
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: turn on do not disturb
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: open YouTube
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: what's on my screen right now
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: search for cheap flights to Bali in December
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: convert 50 euros to dollars
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: what's 17 percent of 340
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: open Spotify and play my liked songs
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: null
+  named: false
+- text: set a timer for ten minutes
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: null
+  named: false
+- text: remind me to take the chicken out at six
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: null
+  named: false
+- text: reply saying yes I'll be there
+  label: for_her
+  app: 'Mail - Re: Project meeting'
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+  also:
+  - write
+- text: and what about the day after
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: no, the other one
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: make it shorter
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: why
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: okay do that
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: actually make it four o'clock instead
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: can you say that again slower
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: thanks, now send me the link
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: 12
+  named: false
+- text: and in Fahrenheit?
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 1
+  since_reply: 14
+  named: false
+- text: what about Sunday
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 1
+  since_reply: 14
+  named: false
+- text: hey Misty what's the time in London
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: true
+- text: Misty, pause the music
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: true
+- text: Edith open my calendar
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: true
+- text: what's on my to do list Misty
+  label: for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: true
+- text: bro what are you doing
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: no way, did he actually say that
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: yeah I know right, it was so bad
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: wait who's coming tonight
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: can you pass me the charger
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: what time is dinner
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: mum I'll be down in five minutes
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: dad, can I go to Rohan's place later
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: haha that's so funny
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: I'm not doing that, you do it
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: where did you put the car keys
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: did you eat already
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: shut the door please, it's cold
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: okay okay I'm coming
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: that's literally what I said
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: are you serious right now
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: pass the salt
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: what did the teacher say about the test
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: I'll text you the address
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: turn it down, I'm trying to study
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 3
+  since_reply: null
+  named: false
+- text: no but listen, the thing is she didn't even ask
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: and then he just walked out
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: what do you want for dinner, pizza or noodles
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: I don't know man, it depends
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: should we leave now or wait for Sam
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: send me the pics from yesterday
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: can you tell her I said hi
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: reply to him later, he can wait
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: write it on the board
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: open the window, it's hot in here
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 5
+  since_reply: null
+  named: false
+- text: can everyone see my screen
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: sorry, you're on mute
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: I think we should move the deadline to next week
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: let me share the slides
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: can you hear me now
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: thanks everyone, see you Thursday
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: send it to the group chat after the call
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: what do you think we should do about the budget
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+- text: hi grandma, how are you
+  label: not_for_her
+  app: FaceTime
+  room: 2
+  since_reply: null
+  named: false
+- text: yes I'm eating properly
+  label: not_for_her
+  app: FaceTime
+  room: 2
+  since_reply: null
+  named: false
+- text: school is fine, exams are next month
+  label: not_for_her
+  app: FaceTime
+  room: 2
+  since_reply: null
+  named: false
+- text: tell grandpa I said hello
+  label: not_for_her
+  app: FaceTime
+  room: 2
+  since_reply: null
+  named: false
+- text: and that's why the mitochondria is the powerhouse of the cell
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: don't forget to like and subscribe
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: today we're going to build a gaming PC for under 500 dollars
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: the defendant was found guilty on all counts
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: welcome back to the channel everybody
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: add two tablespoons of olive oil and stir
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: this is the best goal of the season
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: tell me in the comments what you think
+  label: not_for_her
+  app: YouTube - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: we have to get out of here before they find us
+  label: not_for_her
+  app: Netflix - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: I never said I loved you
+  label: not_for_her
+  app: Netflix - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: where were you last night
+  label: not_for_her
+  app: Netflix - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: open the door, it's me
+  label: not_for_her
+  app: Netflix - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+- text: is this a dagger which I see before me
+  label: not_for_her
+  app: Preview - Macbeth.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: out damned spot, out I say
+  label: not_for_her
+  app: Preview - Macbeth.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: the queen my lord is dead
+  label: not_for_her
+  app: Preview - Macbeth.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: the treaty of Versailles was signed in 1919
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+- text: Germany was forced to accept responsibility for the war
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+- text: hmm
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+- text: ugh this is so annoying
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+- text: okay focus, focus
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+- text: so velocity equals distance over time, that's forty over eight
+  label: not_for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: five times nine point eight, forty nine
+  label: not_for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: wait no, that's wrong
+  label: not_for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: where did I put my calculator
+  label: not_for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: this question is so stupid
+  label: not_for_her
+  app: Preview - Physics paper 2 2023.pdf
+  room: 0
+  since_reply: null
+  named: false
+- text: come here buddy, good boy
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: no, get off the couch
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: who's a good girl
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: oh my god
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: yeah
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: what
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: I'm so tired
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: let me think
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: one two three four
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: la la la
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 0
+  since_reply: null
+  named: false
+- text: I'm walking on sunshine, whoa oh
+  label: not_for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: baby baby baby oh
+  label: not_for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: we will we will rock you
+  label: not_for_her
+  app: Spotify
+  room: 0
+  since_reply: null
+  named: false
+- text: did you get the email from Mr Lee
+  label: not_for_her
+  app: Mail - Inbox
+  room: 4
+  since_reply: null
+  named: false
+- text: I'll reply to it tomorrow
+  label: not_for_her
+  app: Mail - Inbox
+  room: 4
+  since_reply: null
+  named: false
+- text: write to the school and ask, I'm busy
+  label: not_for_her
+  app: Mail - Inbox
+  room: 4
+  since_reply: null
+  named: false
+- text: dude look at this, it actually works
+  label: not_for_her
+  app: Claude - Claude Code - misty
+  room: 3
+  since_reply: null
+  named: false
+- text: I've been coding this for like six hours
+  label: not_for_her
+  app: Claude - Claude Code - misty
+  room: 3
+  since_reply: null
+  named: false
+- text: can you get me some water
+  label: not_for_her
+  app: Claude - Claude Code - misty
+  room: 3
+  since_reply: null
+  named: false
+- text: Edith, dinner's ready, come downstairs
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 2
+  since_reply: null
+  named: true
+- text: Misty is such a weird name for a dog
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 2
+  since_reply: null
+  named: true
+- text: I was telling Misty about it yesterday
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 2
+  since_reply: null
+  named: true
+- text: yeah I agree
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: 12
+  named: false
+- text: no the other one
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: 12
+  named: false
+- text: and then what
+  label: not_for_her
+  app: Google Chrome - New Tab
+  room: 4
+  since_reply: 12
+  named: false
+- text: hi Sarah, thanks for sending this over, Thursday afternoon works for me
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: sounds good, I'll bring the updated slides to the meeting
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: sorry for the late reply, I was away last week
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: um yeah so I think we should push the deadline to next Friday if that's okay with everyone
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: thanks, see you then
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: could you send me the final version when it's ready
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: I've attached the report, let me know if you have any questions
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: dear Mr Lim, I'm writing to ask about the internship position
+  label: write
+  app: 'Mail - Re: Project meeting'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: hey, just checking in on the order I placed last week, it still hasn't arrived
+  label: write
+  app: Gmail - Compose - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: happy birthday, hope you have an amazing day
+  label: write
+  app: Gmail - Compose - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: I won't be able to come to practice on Tuesday because of exams
+  label: write
+  app: Gmail - Compose - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: pushed the new mockups, have a look when you get a chance
+  label: write
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: I think the header is too big on mobile
+  label: write
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: can someone review my pull request before lunch
+  label: write
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: the build is broken on main, looking into it now
+  label: write
+  app: 'Slack - #design'
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: on my way, be there in ten
+  label: write
+  app: WhatsApp
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: haha yeah that was crazy
+  label: write
+  app: WhatsApp
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: can you send me the notes from chemistry today
+  label: write
+  app: WhatsApp
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: what time are we meeting tomorrow
+  label: write
+  app: WhatsApp
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: I'll call you after school
+  label: write
+  app: Messages
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: did you finish the maths homework
+  label: write
+  app: Messages
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: make the pill fade out slower, like half a second, and don't touch the voice code
+  label: write
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: okay so the tests are failing because the fixture path is wrong, fix that first
+  label: write
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: can you explain what this function does before changing it
+  label: write
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: add a dark mode toggle to the settings page
+  label: write
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: no wait, revert that, it broke the login
+  label: write
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: write a test for when the input is empty
+  label: write
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: why is this so slow, profile it and tell me where the time goes
+  label: write
+  app: Claude - Claude Code - misty
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: explain the difference between mitosis and meiosis like I'm fifteen
+  label: write
+  app: ChatGPT - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: give me five ideas for a physics IA about sound
+  label: write
+  app: ChatGPT - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: the treaty of Versailles punished Germany so harshly that it created the conditions for the next war
+  label: write
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: however, some historians argue that the depression mattered more
+  label: write
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: buy batteries, return the library book, email Mr Tan
+  label: write
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: 'idea: an app that tracks how long I actually study'
+  label: write
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: the results show that the rate of reaction increases with temperature
+  label: write
+  app: Google Docs - Lab report - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: one source of error was the delay in starting the stopwatch
+  label: write
+  app: Google Docs - Lab report - Google Chrome
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: mum I'm coming, give me two minutes
+  label: not_for_her
+  app: 'Mail - Re: Project meeting'
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: bro look at this email, it's so long
+  label: not_for_her
+  app: 'Mail - Re: Project meeting'
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: what do you want for dinner
+  label: not_for_her
+  app: 'Mail - Re: Project meeting'
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: no I'm not done yet
+  label: not_for_her
+  app: 'Mail - Re: Project meeting'
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: can you turn the TV down
+  label: not_for_her
+  app: 'Mail - Re: Project meeting'
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: who is she even texting
+  label: not_for_her
+  app: WhatsApp
+  room: 4
+  since_reply: null
+  named: false
+  typing: true
+- text: haha he sent it to the wrong group
+  label: not_for_her
+  app: WhatsApp
+  room: 4
+  since_reply: null
+  named: false
+  typing: true
+- text: wait read what he said
+  label: not_for_her
+  app: WhatsApp
+  room: 4
+  since_reply: null
+  named: false
+  typing: true
+- text: dude it actually worked
+  label: not_for_her
+  app: Claude - Claude Code - misty
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: I'll be down for dinner in five
+  label: not_for_her
+  app: Claude - Claude Code - misty
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: yeah I'm almost done with this
+  label: not_for_her
+  app: Claude - Claude Code - misty
+  room: 3
+  since_reply: null
+  named: false
+  typing: true
+- text: can you hear me now
+  label: not_for_her
+  app: 'Slack - #design'
+  room: 2
+  since_reply: null
+  named: false
+  typing: true
+- text: sorry I was on mute
+  label: not_for_her
+  app: 'Slack - #design'
+  room: 2
+  since_reply: null
+  named: false
+  typing: true
+- text: hmm how do I say this
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: ugh I hate this essay
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: okay what's next
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: wait where did I put my notes
+  label: not_for_her
+  app: Pages - History essay
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: um
+  label: not_for_her
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: let me think
+  label: not_for_her
+  app: Notes
+  room: 0
+  since_reply: null
+  named: false
+  typing: true
+- text: let me type that in the chat
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+  typing: true
+- text: I'll send you the link now
+  label: not_for_her
+  app: zoom.us - Meeting
+  room: 2
+  since_reply: null
+  named: false
+  typing: true

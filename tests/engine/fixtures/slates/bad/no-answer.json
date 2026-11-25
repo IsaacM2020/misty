@@ -1,0 +1,18 @@
+{
+ "_expect": {
+  "reject": true
+ },
+ "title": "no-answer",
+ "blocks": [
+  {
+   "k": "note",
+   "text": "A note with nothing above it.",
+   "say": "A note with nothing above it."
+  },
+  {
+   "k": "turn",
+   "prompt": "Your turn.",
+   "say": "Your turn."
+  }
+ ]
+}

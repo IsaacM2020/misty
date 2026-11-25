@@ -1,0 +1,10 @@
+100%
+Comments
+File  Edit  View  Insert  Format  Tools
+Find the concentration of 4.0 g of NaOH (Mr 40) in 0.500 dm³.
+n = 4.0 / 40 = 0.10 mol
+c = n / V
+c = 0.10 / 0.500
+c = 0.20 mol
+Help
+Page 1 of 1

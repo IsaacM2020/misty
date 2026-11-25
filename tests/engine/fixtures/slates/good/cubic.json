@@ -1,0 +1,39 @@
+{
+ "_kind": "quick",
+ "title": "Cubic",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      -3,
+      3
+     ],
+     "y": [
+      -8,
+      8
+     ],
+     "xl": "$x$",
+     "yl": "$y$"
+    },
+    {
+     "t": "plot",
+     "f": "x**3-3*x",
+     "from": -2.5,
+     "to": 2.5,
+     "label": "$x^3-3x$",
+     "c": "red"
+    }
+   ],
+   "say": "An S shape."
+  },
+  {
+   "k": "math",
+   "tex": "f(0)=0",
+   "say": "It passes through the origin.",
+   "mark": "under"
+  }
+ ]
+}

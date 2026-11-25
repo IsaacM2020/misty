@@ -1,0 +1,40 @@
+{
+  "suggestions": [
+    {
+      "created_at": 1791999900.0,
+      "id": "sg_00000000000001",
+      "item_id": "it_c000000000000001",
+      "kind": "reply",
+      "locator": "/x/it_c000000000000001",
+      "prep": null,
+      "prep_note": null,
+      "prep_state": null,
+      "sender": "aarav@x.com",
+      "snooze_until": null,
+      "source": "folders",
+      "status": "new",
+      "text": "Reply to aarav@x.com: Wiki sync",
+      "title": "igem-notes.md",
+      "updated_at": 1791999900.0,
+      "urgency": "now"
+    },
+    {
+      "created_at": 1791999800.0,
+      "id": "sg_00000000000002",
+      "item_id": "it_c000000000000001",
+      "kind": "task",
+      "locator": "/x/it_c000000000000001",
+      "prep": null,
+      "prep_note": null,
+      "prep_state": null,
+      "sender": "aarav@x.com",
+      "snooze_until": null,
+      "source": "folders",
+      "status": "new",
+      "text": "To do: submit form",
+      "title": "igem-notes.md",
+      "updated_at": 1791999800.0,
+      "urgency": "today"
+    }
+  ]
+}

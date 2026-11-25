@@ -1,0 +1,46 @@
+{
+ "_kind": "quick",
+ "title": "Parabola",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      -4,
+      4
+     ],
+     "y": [
+      -3,
+      10
+     ],
+     "xl": "$x$",
+     "yl": "$y$"
+    },
+    {
+     "t": "plot",
+     "f": "x**2-2",
+     "from": -3.5,
+     "to": 3.5,
+     "label": "$y=x^2-2$",
+     "c": "red"
+    },
+    {
+     "t": "point",
+     "x": 0,
+     "y": -2,
+     "label": "min",
+     "c": "red"
+    }
+   ],
+   "say": "A U shape."
+  },
+  {
+   "k": "math",
+   "tex": "y_{\\min}=-2",
+   "say": "The minimum is minus two.",
+   "mark": "under"
+  }
+ ]
+}

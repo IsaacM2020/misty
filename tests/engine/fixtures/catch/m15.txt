@@ -1,0 +1,9 @@
+Comments
+Editing
+Solve 2x + 3y = 12 and x - y = 1.
+x = y + 1
+2(y + 1) + 3y = 12
+2y + 2 + 3y = 12
+5y = 10
+y = 2
+x = 3

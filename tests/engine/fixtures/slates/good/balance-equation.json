@@ -1,0 +1,16 @@
+{
+ "_kind": "quick",
+ "title": "Balance it",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "2H_2 + O_2 \\to 2H_2O",
+   "say": "Balanced."
+  },
+  {
+   "k": "note",
+   "text": "Two hydrogen molecules per oxygen.",
+   "say": "Two hydrogen molecules per oxygen."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "task": "Open the Downloads folder in Finder and find a functions worksheet (a PDF or document with \"functions\" in its name). Open it if there is one, and report its name back.",
+ "actions": [
+  {
+   "action": "open_path",
+   "file": "/Users/me/Downloads"
+  },
+  {
+   "action": "type_into",
+   "text": "functions",
+   "submit": true
+  },
+  {
+   "action": "shortcut",
+   "keys": "cmd+f"
+  },
+  {
+   "action": "type_into",
+   "text": "functions",
+   "submit": true
+  },
+  {
+   "action": "list_files",
+   "folder": "Downloads",
+   "kind": "pdf"
+  },
+  {
+   "action": "press",
+   "id": 22
+  },
+  {
+   "action": "list_files",
+   "folder": "Downloads",
+   "kind": "pdf",
+   "sort": "name"
+  },
+  {
+   "action": "list_files",
+   "folder": "Downloads",
+   "sort": "name"
+  },
+  {
+   "action": "type_into",
+   "id": 14,
+   "text": "functions",
+   "submit": true
+  },
+  {
+   "action": "press",
+   "id": 45
+  },
+  {
+   "action": "wait"
+  },
+  {
+   "action": "wait"
+  },
+  {
+   "action": "look"
+  },
+  {
+   "action": "open_path",
+   "file": "/Users/me/Downloads/FUNCTIONS HL.docx"
+  },
+  {
+   "action": "look"
+  },
+  {
+   "action": "look"
+  },
+  {
+   "action": "look"
+  },
+  {
+   "action": "look"
+  },
+  {
+   "action": "look"
+  },
+  {
+   "action": "look"
+  }
+ ],
+ "note": "recorded 17 Nov 2026, st_20261117-101906_dc6699: 20 steps, 52.3 s, step 14 opened the file"
+}

@@ -1,0 +1,8 @@
+{
+  "answer": "iGEM is the wiki project [[projects/igem]] for school [[areas/school]].",
+  "citations": [
+    "projects/igem",
+    "areas/school"
+  ],
+  "route": "ask_wiki"
+}

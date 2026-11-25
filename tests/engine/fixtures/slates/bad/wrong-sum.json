@@ -1,0 +1,17 @@
+{
+ "_expect": {
+  "reject": true
+ },
+ "title": "wrong-sum",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "7 \\times 8 = 54",
+   "say": "Wrong.",
+   "check": {
+    "lhs": "7*8",
+    "rhs": "54"
+   }
+  }
+ ]
+}

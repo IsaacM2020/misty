@@ -1,0 +1,6 @@
+Comments
+Maths homework
+100%
+Differentiate y = x² sin x.
+product rule?? u = x², v = sin x
+y' = 2x sin x + x² cos x

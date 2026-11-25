@@ -1,0 +1,14 @@
+{
+ "_kind": "quick",
+ "title": "Interest",
+ "blocks": [
+  {
+   "k": "math",
+   "tex": "1000 \\times 1.05^3 = \\ans",
+   "say": "About eleven fifty-eight.",
+   "ans": {
+    "expr": "1000*1.05**3"
+   }
+  }
+ ]
+}

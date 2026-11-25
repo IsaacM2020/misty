@@ -1,0 +1,31 @@
+{
+  "jsonrpc": "2.0",
+  "method": "status.changed",
+  "params": {
+    "badge": true,
+    "build": null,
+    "capped": [],
+    "health": null,
+    "online": true,
+    "paused": false,
+    "queue": {},
+    "sources": [
+      {
+        "health": "ok",
+        "last_ok_at": 1791999000.0,
+        "source": "folders"
+      },
+      {
+        "health": "needs_fda",
+        "last_ok_at": null,
+        "source": "imessage"
+      }
+    ],
+    "spend": {
+      "build": null,
+      "cap_build": 3.0,
+      "cap_daily": 0.2,
+      "today": 7.58e-05
+    }
+  }
+}

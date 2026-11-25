@@ -1,0 +1,9 @@
+100%
+Untitled document
+Data: g = 9.81 N/kg
+Find the weight of a 6.0 kg mass.
+W = mg
+W = 6.0 × 9.81
+W = 58.86 N
+W ≈ 59 N
+Help

@@ -1,0 +1,9 @@
+Untitled document
+Share
+Saved to Drive
+Data: g = 9.81 m/s²
+A stone falls from rest for 2.0 s. Find its speed.
+v = u + gt
+v = 0 + 9.18 × 2.0
+v = 18.36 m/s
+Word count: 38

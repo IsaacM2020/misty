@@ -1,0 +1,38 @@
+{
+ "_kind": "quick",
+ "title": "Growth",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      5
+     ],
+     "y": [
+      0,
+      30
+     ],
+     "xl": "$t$"
+    },
+    {
+     "t": "plot",
+     "f": "2**x",
+     "from": 0,
+     "to": 4.9,
+     "label": "$2^t$",
+     "c": "red"
+    }
+   ],
+   "say": "Doubling."
+  },
+  {
+   "k": "math",
+   "tex": "2^4=16",
+   "say": "Four doublings make sixteen.",
+   "mark": "under"
+  }
+ ]
+}

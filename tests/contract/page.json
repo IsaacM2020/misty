@@ -1,0 +1,23 @@
+{
+  "body": "## Summary\nThe iGEM wiki project.\n\n## Now\n- write part 3 docs\n\n## Timeline\n- 2026-10-13: wiki sync\n- 2026-10-02: kickoff\n\n## Links\n- [[people/aarav]]",
+  "fm": {
+    "aliases": [],
+    "area": "school",
+    "importance": 4,
+    "sources": [
+      "it_c000000000000001"
+    ],
+    "title": "iGEM",
+    "type": "project",
+    "updated": "2026-10-14"
+  },
+  "path": "projects/igem.md",
+  "sources": [
+    {
+      "item_id": "it_c000000000000001",
+      "locator": "/x/it_c000000000000001",
+      "source": "folders",
+      "title": "igem-notes.md"
+    }
+  ]
+}

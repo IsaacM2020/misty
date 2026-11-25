@@ -1,0 +1,6 @@
+Page 1 of 1
+Comments
+Find the mass of 0.50 mol of CaCO3 (Mr 100).
+m = n × Mr
+m = 0.50 × 100
+m = 50 g

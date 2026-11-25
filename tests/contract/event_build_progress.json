@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "method": "build.progress",
+  "params": {
+    "done": 0,
+    "failed": 0,
+    "id": "bd_000000000002",
+    "paused_by": null,
+    "phase": "compile",
+    "spent_usd": 0.0,
+    "total": 1
+  }
+}

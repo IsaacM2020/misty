@@ -1,0 +1,17 @@
+{
+ "_kind": "stay",
+ "title": "Sleep protocol",
+ "blocks": [
+  {
+   "k": "steps",
+   "items": [
+    "Screens off at ten",
+    "Room cool and dark",
+    "Same wake time daily",
+    "No caffeine after two"
+   ],
+   "say": "Four steps.",
+   "confirm": true
+  }
+ ]
+}

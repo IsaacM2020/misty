@@ -1,0 +1,6 @@
+Page 1 of 1
+Saved to Drive
+Find the sum of the first 10 terms of an AP with a = 3 and d = 4.
+u10 = 3 + 9 × 4 = 39
+S10 = 10 / 2 × (3 + 39)
+S10 = 5 × 42 = 210

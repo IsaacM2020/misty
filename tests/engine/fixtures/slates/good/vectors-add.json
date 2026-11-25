@@ -1,0 +1,43 @@
+{
+ "_kind": "quick",
+ "title": "Vector sum",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "vector",
+     "x1": 0,
+     "y1": 0,
+     "x2": 3,
+     "y2": 1,
+     "label": "$\\vec a$"
+    },
+    {
+     "t": "vector",
+     "x1": 3,
+     "y1": 1,
+     "x2": 4,
+     "y2": 3,
+     "label": "$\\vec b$"
+    },
+    {
+     "t": "vector",
+     "x1": 0,
+     "y1": 0,
+     "x2": 4,
+     "y2": 3,
+     "label": "$\\vec a+\\vec b$",
+     "c": "red"
+    }
+   ],
+   "say": "Tip to tail."
+  },
+  {
+   "k": "math",
+   "tex": "\\vec a+\\vec b=(4,3)",
+   "say": "The sum is four, three.",
+   "mark": "under"
+  }
+ ]
+}

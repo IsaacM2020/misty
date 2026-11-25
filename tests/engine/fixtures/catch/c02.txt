@@ -1,0 +1,8 @@
+Untitled document
+Comments
+How many moles are in 25.0 cm³ of 0.200 mol/dm³ NaOH?
+n = c × V
+V = 25.0 / 1000 = 0.0250 dm³
+n = 0.200 × 0.0250 = 0.050 mol
+Help
+Saved to Drive

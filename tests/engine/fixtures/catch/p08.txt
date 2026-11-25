@@ -1,0 +1,7 @@
+Untitled document
+Maths homework
+File  Edit  View  Insert  Format  Tools
+A 3.0 kg object moves at 4.0 m/s. Find its kinetic energy.
+KE = m v²
+KE = 3.0 × 4.0²
+KE = 3.0 × 16 = 48 J

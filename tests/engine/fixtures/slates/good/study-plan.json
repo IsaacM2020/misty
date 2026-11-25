@@ -1,0 +1,16 @@
+{
+ "_kind": "stay",
+ "title": "Study plan",
+ "blocks": [
+  {
+   "k": "steps",
+   "items": [
+    "Physics past paper",
+    "Chem flashcards",
+    "Econ essay plan"
+   ],
+   "say": "Three blocks tonight.",
+   "confirm": true
+  }
+ ]
+}

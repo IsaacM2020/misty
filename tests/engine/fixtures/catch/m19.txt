@@ -1,0 +1,9 @@
+File  Edit  View  Insert  Format  Tools
+100%
+Comments
+Find the roots of 2x² − 8 = 0.
+2x² = 8
+x² = 4
+x = ±2
+(check later)
+Suggesting

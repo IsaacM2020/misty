@@ -1,0 +1,7 @@
+Share
+Editing
+File  Edit  View  Insert  Format  Tools
+Simplify log2 8 + log2 4.
+log2 8 = 3
+log2 4 = 2
+3 + 2 = 5

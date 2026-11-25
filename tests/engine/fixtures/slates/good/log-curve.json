@@ -1,0 +1,37 @@
+{
+ "_kind": "quick",
+ "title": "Log",
+ "blocks": [
+  {
+   "k": "diagram",
+   "items": [
+    {
+     "t": "axes",
+     "x": [
+      0,
+      10
+     ],
+     "y": [
+      -1,
+      4
+     ]
+    },
+    {
+     "t": "plot",
+     "f": "ln(x)",
+     "from": 0.2,
+     "to": 10,
+     "label": "$\\ln x$",
+     "c": "red"
+    }
+   ],
+   "say": "Slow climb."
+  },
+  {
+   "k": "math",
+   "tex": "\\ln e=1",
+   "say": "It reaches one at e.",
+   "mark": "under"
+  }
+ ]
+}
