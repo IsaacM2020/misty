@@ -5,7 +5,7 @@ from misty_engine.scrub import find_secrets, is_secret_file, luhn_ok, scrub_text
 POSITIVE = [
     ("api_key", "key: sk-or-v1-0a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d"),
     ("api_key", "OPENAI sk-proj-AbCdEf0123456789AbCdEf0123"),
-    ("api_key", "AIzaSyA1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q"),
+    ("api_key", "AIza" + "SyA1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q"),
     ("api_key", "ghp_0123456789abcdefABCDEF0123456789abcd"),
     ("api_key", "xoxb-123456789012-abcdefABCDEF"),
     ("api_key", "AKIAIOSFODNN7EXAMPLE"),
